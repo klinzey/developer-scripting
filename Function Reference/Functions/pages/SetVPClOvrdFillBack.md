@@ -1,0 +1,42 @@
+# SetVPClOvrdFillBack
+
+## Description
+Sets the fill background color of a class override in a viewport. The color is specified by RGB values in the range 0~65535.
+
+```pascal
+PROCEDURE SetVPClOvrdFillBack(
+				viewportHandle : HANDLE;
+				className      : STRING;
+				colorRV        : LONGINT;
+				colorGV        : LONGINT;
+				colorBV        : LONGINT);
+```
+
+```python
+
+def vs.SetVPClOvrdFillBack(viewportHandle, className, colorRV, colorGV, colorBV):
+    return None
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|viewportHandle|HANDLE|The viewport handle.|
+|className|STRING|The name of the class to override.|
+|colorRV|LONGINT|Red color value.|
+|colorGV|LONGINT|Green color value.|
+|colorBV|LONGINT|Blue color value.|
+
+## Returns
+Returns true if the color override was applied.<BR>
+Returns false if the class override does not exist or the handle is invalid.
+
+## See Also
+VS Functions:
+[GetVPClOvrdFillBack](GetVPClOvrdFillBack.md)
+
+## Version
+Availability: from Vectorworks 2014
+## Category
+* Viewports
+
