@@ -1,0 +1,25 @@
+# CreateRWBackground
+
+## Description
+Creates a Renderworks Background resource using the image from an existing Image resource. Width and height are set to default sizes relative to the page size.
+
+```pascal
+FUNCTION CreateRWBackground(imageResource : HANDLE) : HANDLE;
+```
+
+```python
+
+def vs.CreateRWBackground(imageResource):
+    return HANDLE
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|imageResource|HANDLE||
+
+## Version
+Availability: from Vectorworks 2009
+## Category
+* Objects - 2D
+

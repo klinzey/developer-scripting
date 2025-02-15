@@ -1,0 +1,23 @@
+# GetHorizSecCPByStyle
+
+## Description
+```pascal
+FUNCTION GetHorizSecCPByStyle(hObject : HANDLE) : BOOLEAN;
+```
+
+```python
+
+def vs.GetHorizSecCPByStyle(hObject):
+    return BOOLEAN
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|hObject|HANDLE||
+
+## Version
+Availability: from Vectorworks 2020
+## Category
+* Objects - Custom
+

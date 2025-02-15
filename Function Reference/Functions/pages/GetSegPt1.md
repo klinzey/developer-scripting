@@ -1,0 +1,28 @@
+# GetSegPt1
+
+## Description
+Procedure GetSegPt1 returns the X-Y coordinates of the start point of the referenced line, wall, or linear dimension object.
+
+```pascal
+PROCEDURE GetSegPt1(
+				h     : HANDLE;
+				VAR p : REAL);
+```
+
+```python
+
+def vs.GetSegPt1(h):
+    return p
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|h|HANDLE|Handle to line.|
+|p|REAL|Coordinates of start point.|
+
+## Version
+Availability: from MiniCAD
+## Category
+* Objects - 2D
+

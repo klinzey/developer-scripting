@@ -1,0 +1,45 @@
+# GetRoofEdge
+
+## Description
+Procedure GetRoofEdge returns the definition attributes of a roof edge for the referenced roof object.
+
+```pascal
+FUNCTION GetRoofEdge(
+				theRoof        : HANDLE;
+				index          : INTEGER;
+				VAR vertexPt   : REAL;
+				VAR slope      : REAL;
+				VAR projection : REAL;
+				VAR eaveHeight : REAL) : BOOLEAN;
+```
+
+```python
+
+def vs.GetRoofEdge(theRoof, index):
+    return (BOOLEAN, vertexPt, slope, projection, eaveHeight)
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|theRoof|HANDLE|Handle to roof.|
+|index|INTEGER|Index of roof edge (in a range of 1 - n).|
+|vertexPt|REAL|Returns coordinates of roof edge definition vertex.|
+|slope|REAL|Returns slope of roof edge.|
+|projection|REAL|Retunrs eave overhang dimension.|
+|eaveHeight|REAL|Returns eave height.|
+
+## Remarks
+Vertices define the outline of the roof and its characteristics.  Vertices must progress in a counter clock wise direction, when viewed from a top view, otherwise the roof cannot be built.<BR>
+<BR>
+index: Indexs have values between 1 and NVertices (See GetRoofVertices())<BR>
+edgePt: Coordinate point for this edge<BR>
+slope: pitch of this roof edge<BR>
+projection: eave overhang<BR>
+eaveHeight: eave height
+
+## Version
+Availability: from VectorWorks8.0
+## Category
+* Objects - Roofs
+

@@ -1,0 +1,25 @@
+# UnHideObjects
+
+## Description
+Changes the object visibility to &amp;quot;visible&amp;quot; for all objects hidden with Hide, HideSelectedObjects and ShowOnlySelected commands. The object will only become visible if it is also on a visible layer and class.
+
+```pascal
+PROCEDURE UnHideObjects;
+```
+
+```python
+
+def vs.UnHideObjects():
+    return None
+```
+
+## Examples
+```pascal
+UnHideObjects();
+```
+
+## Version
+Availability: from Vectorworks 2025
+## Category
+* Object Attributes
+

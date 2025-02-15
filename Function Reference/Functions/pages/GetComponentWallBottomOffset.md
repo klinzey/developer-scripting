@@ -1,0 +1,34 @@
+# GetComponentWallBottomOffset
+
+## Description
+Gets the offset from wall bottom of a component in an object.
+
+```pascal
+FUNCTION GetComponentWallBottomOffset(
+				object                   : HANDLE;
+				componentIndex           : INTEGER;
+				VAR offsetFromWallBottom : REAL) : BOOLEAN;
+```
+
+```python
+
+def vs.GetComponentWallBottomOffset(object, componentIndex):
+    return (BOOLEAN, offsetFromWallBottom)
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|object|HANDLE|The object. Can be a wall, round wall, Wall Style, or the Wall Preferences.|
+|componentIndex|INTEGER|The index of the component.|
+|offsetFromWallBottom|REAL|Returns the offset from wall bottom of the component.|
+
+## See Also
+VS Functions:
+[SetComponentWallBottomOffset](SetComponentWallBottomOffset.md)
+
+## Version
+Availability: from Vectorworks 2011
+## Category
+* Objects - Architectural
+

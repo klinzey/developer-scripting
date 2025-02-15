@@ -1,0 +1,28 @@
+# DelRecord
+
+## Description
+Procedure DelRecord removes an attached record from the referenced object.
+
+```pascal
+PROCEDURE DelRecord(
+				h    : HANDLE;
+				name : DYNARRAY[] of CHAR);
+```
+
+```python
+
+def vs.DelRecord(h, name):
+    return None
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|h|HANDLE|Handle to object.|
+|name|DYNARRAY[] of CHAR|Name of record to be removed.|
+
+## Version
+Availability: from MiniCAD7.0
+## Category
+* Database / Record
+
