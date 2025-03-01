@@ -1,0 +1,33 @@
+# FPenPatN
+
+## Description
+Function FPenPatN returns the active pen pattern setting.
+
+```pascal
+FUNCTION FPenPatN : LONGINT;
+```
+
+```python
+def vs.FPenPatN():
+    return LONGINT
+```
+
+## Remarks
+[[User:CBM-c-|_c_]] (2016.02.29): [[VS:FPenPatN]] returns the name list index of the active dash style, while the older routine [[VS:FPenPat]] will return the dash style index. They are not the same.
+
+<code lang='vs'>
+{ compare the two different indexes: }
+indx := FPenPat; { returns the dash style list index corresponding to the active dash style }
+indx := FPenPatN; { returns the name list index corresponding to the active dash style }
+</code>
+
+## See Also
+VS Functions:
+[PenPatN](PenPatN.md)
+
+## Version
+Availability: from Vectorworks 2013
+
+## Category
+* Document Attributes
+

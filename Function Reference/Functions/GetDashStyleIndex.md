@@ -1,0 +1,52 @@
+# GetDashStyleIndex
+
+## Description
+Function GetDashStyleIndex searches for the pattern specified by the parameters. If it exists, then the linestyle index associated with the existing dash pattern is returned. If it does not exist, then it is added to the document and the linestyle index associated with the new dash pattern is returned.
+
+```pascal
+FUNCTION GetDashStyleIndex(
+				swt      : BOOLEAN;
+				numPairs : INTEGER;
+				pair1    : REAL;
+				pair2    : REAL;
+				pair3    : REAL;
+				pair4    : REAL;
+				pair5    : REAL): INTEGER;
+```
+
+```python
+def vs.GetDashStyleIndex(swt, numPairs, pair1, pair2, pair3, pair4, pair5):
+    return INTEGER
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|swt|BOOLEAN|scales with thickness|
+|numPairs|INTEGER|count of used pairs|
+|pair1|REAL|   |
+|pair2|REAL|   |
+|pair3|REAL|   |
+|pair4|REAL|   |
+|pair5|REAL|   |
+
+## Remarks
+[[User:CBM-c-|_c_]], (2016.03.01):  The dash style index returned is relative to the dash style list, not the name list so it's not an index that can be used with [[VS:Index2Name]]. The values must be page inches. This routine seems to be the same as [[VS:GetDashStyle]] but it doesn't set the found/created dash style as the active style. More comments on Vectorlab's [http://www.vectorlab.info/index.php?title=Index_pitfalls Index_pitfalls].
+
+<code lang="vs">
+GetDashStyleIndex(scalesWithThickness: BOOLEAN; numPairs: INTEGER; dash1, gap1, dash2, gap2, dash3, gap3, dash4, gap4, dash5, gap5: REAL): INTEGER; 
+
+indx := GetDashStyleIndex(TRUE, 1, 0.12, 0.03); 
+{ returns the dash style index of 'ISO-02 Dashed' or creates a style in the document with these values }
+</code>
+
+Parameter swt defines whether the linestyle will be scaled with thickness, and parameter numPairs specifies the number of length pairs (2-10) defining the linestyle.
+The linestyle is defined by up to five black/white length pairs, which are specified in parameters pair1 through pair5. The minimum length of any given black or white parameter is 1 point, or 1/72 of an inch, and the line specification must be in pairs.  
+The Function will also set the document default line style.
+
+## Version
+Availability: from Vectorworks 2010
+
+## Category
+* Document Attributes
+

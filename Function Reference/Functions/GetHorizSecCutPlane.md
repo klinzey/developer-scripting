@@ -1,0 +1,28 @@
+# GetHorizSecCutPlane
+
+```pascal
+FUNCTION GetHorizSecCutPlane(hObject : HANDLE): INTEGER;
+```
+
+```python
+def vs.GetHorizSecCutPlane(hObject):
+    return INTEGER
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|hObject|HANDLE|   |
+
+## Remarks
+[[User:CBM-c-|_c_]] (2021.01.31): Constants returned:
+* 1 = View as Cut when Cut in Viewport
+* 3 = View as Uncut below when Cut in Viewport
+* 4 = View as Uncut above when Cut in Viewport
+
+## Version
+Availability: from Vectorworks 2020
+
+## Category
+* Objects - Custom
+

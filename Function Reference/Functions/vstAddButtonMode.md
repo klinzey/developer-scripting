@@ -1,0 +1,29 @@
+# vstAddButtonMode
+
+## Description
+Used in the initialization of an event-enabled tool, add a mode bar button.
+
+(Seems like this has been replaced by [[VS:AddButtonMode]])
+
+```pascal
+PROCEDURE vstAddButtonMode(inIconID : DYNARRAY OF CHAR);
+```
+
+```python
+def vs.vstAddButtonMode(inIconSpecification):
+    return None
+```
+
+## Parameters
+|Name|Type|Description|
+|---|---|---|
+|inIconID|INTEGER|   |
+
+## Version
+Availability: from All Versions
+
+This is drop-in function.
+
+## Category
+* Tool Events
+
