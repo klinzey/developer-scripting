@@ -14,7 +14,7 @@ You can go to the [Python page](Python/README.md) for more information.
 [VectorScript](VectorScript/README.md) is a Pascal-like language allowing scripting in Vectorworks.
 
 ## Function Reference:
-* [Functions](Function%20Reference/Functions/README.md)
+* [Functions](Function%20Reference/README.md)
 * [Appendix](Function%20Reference/Appendix/README.md)
 
 ## Common Tasks
