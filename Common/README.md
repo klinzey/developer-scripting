@@ -1,4 +1,4 @@
-== Info ==
+## Info
 
 * [Binary File Operations](Tasks/Binary%20File%20Operations.md)
 * [Install Plugins into the Current Workspace](Tasks/Install%20Plugins%20into%20the%20Current%20Workspace.md)
