@@ -2,6 +2,14 @@
 
 Vectorworks provides two options for scripting: Python (as of Vectorworks 2014) and VectorScript.
 
+## Marionette Scripting
+
+Marionette is a graphical programming language for Vectorworks. It allows the user to generate and manipulate VW objects without learning a traditional text based language.
+
+* [Marionette Basics](Marionette/pages/Basics.md)
+* [Marionette Implement a Node](Marionette/pages/Implement%20a%20Node.md)
+* [Marionette Node Reference](Marionette/pages/Node%20Reference.md) (Work in progress)
+* [Python Package Catalog](Marionette/pages/Python%20Package%20Catalog.md)
 
 ## Python Scripting
 
