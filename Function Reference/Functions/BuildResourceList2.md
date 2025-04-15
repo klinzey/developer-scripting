@@ -11,243 +11,104 @@ A complete listing of supported object types may be found in the [[VS:Function_R
 
 ; Note that use of the negative values of these constants can be used to get the user-based folder path.  The positive values are for application-based paths, which should not be used for writing.
 
-{| class="wikitable"
-|+ Table - Folder Path Selectors
-|-
-! Folder Name !! Constant
-|-
-| Application || 1
-|-
-| Plug-Ins || 2
-|-
-| Workspaces || 4
-|-
-| Templates || 7
-|-
-| Standards || 8
-|-
-| Help || 9
-|-
-| Dictionaries || 10
-|-
-| User App Data || 12
-|-
-| Libraries || 13
-|-
-| Defaults || 14
-|-
-| Settings || 15
-|-
-| PDF Resources || 18
-|-
-| Plug-In Data || 20
-|-
-| Plug-In Includes || 21
-|-
-| Plug-In interfaces || 22
-|-
-| Favorites || 23
-|-
-| Renderworks - Textures || 100
-|-
-| Cabinet - Handles || 101
-|-
-| Door - Hardware || 102
-|-
-| Attributes - Gradients || 103
-|-
-| Hardscape - Hatches || 104
-|-
-| Attributes - Hatches || 105
-|-
-| Attributes - Image Fills || 106
-|-
-| Plants || 107
-|-
-| Toilet Stall - Fixtures || 108
-|-
-| RenderWorks - Backgrounds || 109
-|-
-| Seating Layout - Symbols || 110
-|-
-| Tile - Symbols || 111
-|-
-| Human Figure - Textures || 112
-|-
-| Walls || 113
-|-
-| Stairs || 114
-|-
-| Drawing Border - Title Blocks || 115
-|-
-| Section - Markers || 116
-|-
-| Repetitive Unit || 117
-|-
-| Door - Custom Leaves || 118
-|-
-| Lighting Instrument - Gobos || 119
-|-
-| Reports~Schedules || 120
-|-
-| Lighting Instrument - Symbols || 121
-|-
-| Plants - Hatches || 124
-|-
-| Repetitive Unit: Flooring/Decking || 125
-|-
-| Repetitive Unit: Framing || 126
-|-
-| Repetitive Unit: Masonry Units || 127
-|-
-| Repetitive Unit: Miscellaneous || 128
-|-
-| Repetitive Unit: Roofing || 129
-|-
-| Repetitive Unit: Siding || 130
-|-
-| Walls - Hatches || 131
-|-
-| Walls - Textures || 132
-|-
-| Window - Custom Shutters || 133
-|-
-| Sketch Styles || 134
-|-
-| Plant Database || 135
-|-
-| VW Plants || 136
-|-
-| Color Palettes || 137
-|-
-| Framing Member - Custom Profile || 138
-|-
-| Spaces - Occupant Organization Name Lists || 140
-|-
-| Spaces - Space Name Lists and Libraries || 141
-|-
-| Structural Shapes || 142
-|-
-| Reports~Schedules - Landmark Schedules
-| 143
-|-
-| Video Screen
-| 144
-|-
-| Video Screen - Casings CRT 4-3
-| 145
-|-
-| Video Screen - Casings CRT 16-9
-| 146
-|-
-| Video Screen - Casings Flat 4-3
-| 147
-|-
-| Video Screen - Casings Flat 16-9
-| 148
-|-
-| Video Screen - Casings CRT Curved 4-3
-| 149
-|-
-| Video Screen - Screen Images
-| 150
-|-
-| Video Screen - Projector Models
-| 151
-|-
-| Video Screen - Stand Models
-| 152
-|-
-| Attributes - Line Types
-| 153
-|-
-| Event Planning
-| 154
-|-
-| Event Planning - Room
-| 155
-|-
-| Event Planning - Stage
-| 156
-|-
-| Event Planning - Lectern
-| 157
-|-
-| Event Planning - Screen
-| 158
-|-
-| Event Planning - Seating
-| 159
-|-
-| Event Planning - Step
-| 160
-|-
-| Stairs - Custom Stair Tool
-| 161
-|-
-| Stairs - Custom Stair Tool - Stringer Profiles
-| 162
-|-
-| Tile - Symbols
-| 163
-|-
-| Text Styles
-| 164
-|-
-| Focus Points
-| 165
-|-
-| Renderworks - Render Styles
-| 166
-|-
-| Existing Tree
-| 167
-|-
-| Heliodon
-| 168
-|-
-| Heliodon - Symbols
-| 169
-|-
-| Heliodon - Cities
-| 170
-|-
-| Renderworks - Render Styles
-| 171
-|-
-| Story Support
-| 172
-|-
-| Detail Callout-Marker
-| 173
-|-
-| Attributes - Line Types
-| 174
-|-
-| Audio Tools
-| 175
-|-
-| Audio Tools - Bumpers
-| 176
-|-
-| Audio Tools - Speakers
-| 177
-|-
-| Extras
-| 178
-|-
-| Samples
-| 179
-|-
-| Parking Space
-| 180
-|-
-| Reports~Schedules - Spotlight Schedules
-| 181
-|-
-| Workspaces
-| 182
-|}
+| Folder Name                              | Constant |
+|------------------------------------------|----------|
+| Application                              | 1        |
+| Plug-Ins                                 | 2        |
+| Workspaces                               | 4        |
+| Templates                                | 7        |
+| Standards                                | 8        |
+| Help                                     | 9        |
+| Dictionaries                             | 10       |
+| User App Data                            | 12       |
+| Libraries                                | 13       |
+| Defaults                                 | 14       |
+| Settings                                 | 15       |
+| PDF Resources                            | 18       |
+| Plug-In Data                             | 20       |
+| Plug-In Includes                         | 21       |
+| Plug-In interfaces                       | 22       |
+| Favorites                                | 23       |
+| Renderworks - Textures                   | 100      |
+| Cabinet - Handles                        | 101      |
+| Door - Hardware                          | 102      |
+| Attributes - Gradients                   | 103      |
+| Hardscape - Hatches                      | 104      |
+| Attributes - Hatches                     | 105      |
+| Attributes - Image Fills                 | 106      |
+| Plants                                   | 107      |
+| Toilet Stall - Fixtures                  | 108      |
+| RenderWorks - Backgrounds                | 109      |
+| Seating Layout - Symbols                 | 110      |
+| Tile - Symbols                           | 111      |
+| Human Figure - Textures                  | 112      |
+| Walls                                    | 113      |
+| Stairs                                   | 114      |
+| Drawing Border - Title Blocks            | 115      |
+| Section - Markers                        | 116      |
+| Repetitive Unit                          | 117      |
+| Door - Custom Leaves                     | 118      |
+| Lighting Instrument - Gobos              | 119      |
+| Reports~Schedules                        | 120      |
+| Lighting Instrument - Symbols            | 121      |
+| Plants - Hatches                         | 124      |
+| Repetitive Unit: Flooring/Decking        | 125      |
+| Repetitive Unit: Framing                 | 126      |
+| Repetitive Unit: Masonry Units           | 127      |
+| Repetitive Unit: Miscellaneous           | 128      |
+| Repetitive Unit: Roofing                 | 129      |
+| Repetitive Unit: Siding                  | 130      |
+| Walls - Hatches                          | 131      |
+| Walls - Textures                         | 132      |
+| Window - Custom Shutters                 | 133      |
+| Sketch Styles                            | 134      |
+| Plant Database                           | 135      |
+| VW Plants                                | 136      |
+| Color Palettes                           | 137      |
+| Framing Member - Custom Profile          | 138      |
+| Spaces - Occupant Organization Name Lists| 140      |
+| Spaces - Space Name Lists and Libraries  | 141      |
+| Structural Shapes                        | 142      |
+| Reports~Schedules - Landmark Schedules   | 143      |
+| Video Screen                             | 144      |
+| Video Screen - Casings CRT 4-3           | 145      |
+| Video Screen - Casings CRT 16-9          | 146      |
+| Video Screen - Casings Flat 4-3          | 147      |
+| Video Screen - Casings Flat 16-9         | 148      |
+| Video Screen - Casings CRT Curved 4-3    | 149      |
+| Video Screen - Screen Images             | 150      |
+| Video Screen - Projector Models          | 151      |
+| Video Screen - Stand Models              | 152      |
+| Attributes - Line Types                  | 153      |
+| Event Planning                           | 154      |
+| Event Planning - Room                    | 155      |
+| Event Planning - Stage                   | 156      |
+| Event Planning - Lectern                 | 157      |
+| Event Planning - Screen                  | 158      |
+| Event Planning - Seating                 | 159      |
+| Event Planning - Step                    | 160      |
+| Stairs - Custom Stair Tool               | 161      |
+| Stairs - Custom Stair Tool - Stringer Profiles | 162 |
+| Tile - Symbols                           | 163      |
+| Text Styles                              | 164      |
+| Focus Points                             | 165      |
+| Renderworks - Render Styles              | 166      |
+| Existing Tree                            | 167      |
+| Heliodon                                 | 168      |
+| Heliodon - Symbols                       | 169      |
+| Heliodon - Cities                        | 170      |
+| Renderworks - Render Styles              | 171      |
+| Story Support                            | 172      |
+| Detail Callout-Marker                    | 173      |
+| Attributes - Line Types                  | 174      |
+| Audio Tools                              | 175      |
+| Audio Tools - Bumpers                    | 176      |
+| Audio Tools - Speakers                   | 177      |
+| Extras                                   | 178      |
+| Samples                                  | 179      |
+| Parking Space                            | 180      |
+| Reports~Schedules - Spotlight Schedules  | 181      |
+| Workspaces                               | 182      |
 
 ```pascal
 FUNCTION BuildResourceList2(
