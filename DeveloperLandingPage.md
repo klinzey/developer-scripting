@@ -1,3 +1,7 @@
+This is a landing page for Vectorworks development.
+
+The information is separated depending on the area of interest for Vectorworks development into different GitHub repository.
+
 # Worksheets
 
 Information on worksheet functions can be fond here:
