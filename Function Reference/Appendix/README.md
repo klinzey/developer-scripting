@@ -12,4 +12,4 @@
 
 [Appendix I - Markers](pages/Appendix%20I%20-%20Markers.md)
 
-[Appendix J - Folder Indexe](pages/Appendjx%20I%20-%20Folder%20Indexes.md)
+[Appendix J - Folder Indexes](pages/Appendix%20J%20-%20Folder%20Indexes.md)
