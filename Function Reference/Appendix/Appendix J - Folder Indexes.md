@@ -1,4 +1,9 @@
+# Appendix J - Folder Indexes
+
+## Application Folder Indexes
+
 | Folder | Index |
+|--------|-------|
 | Root Folder | 0   |
 | Application Folder | 1   |
 | Plug-ins Folder | 2   |
@@ -109,7 +114,7 @@
 | Default Spotlight Schedules | 181 |
 | Default Workspaces Folder | 182 |
 | Default Notes Folder | 183 |
-| 187 |
+| Default Energy Analysis Folder | 187 |
 | Hoist Tools Folder | 188 |
 | Accessory Symbols Folder | 189 |
 | Entertainment Lighting Folder | 190 |
@@ -333,3 +338,20 @@
 | Curb Profiles Folder | 443 |
 | Curb Corners Folder | 444 |
 | Curb Insertions Folder | 445 |
+| Architect Schedules Folder | 446 |
+| Entertainmnet Video LED Wall Styles Folder | 447 |
+| Entertainmnet Video LED Panels Folder | 448 |
+| Entertainmnet	Rigging Hardware_Ground | 449 |
+| Entertainmnet	Rigging	Hardware_Hanging Folder | 450 |
+| Entertainmnet	Rigging	Hardware_Pipes Folder | 451 |
+| Entertainmnet	Rigging	Hardware_Other Folder | 452 |
+| Default Sustainability Folder	| 453 |
+| Entertainmnet Video LED Accessories Folder | 454 |
+| ExistingTree2D Canopy Folder	| 455 |
+| ExistingTree3D Canopy Folder | 456 |
+| ExistingTree2D Trunk Folder	| 457 |
+| Stake DataTag Style Folder | 458 |
+| Entertainmnet Lighting Folder	| 459 |
+| Entertainmnet Audio Folder	| 460 |
+| Entertainmnet Rigging Folder | 461 |
+| Entertainmnet Video LED Folder | 462 |
