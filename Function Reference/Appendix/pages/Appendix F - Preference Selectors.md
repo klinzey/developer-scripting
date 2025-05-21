@@ -4,57 +4,57 @@
 
 | Preference | Selector | Preference Value | Function |
 |------------|----------|------------------|----------|
-| Click-Drag Mode | 0 | TRUE or FALSE | [VS:GetPref](#) |
-| Offset Duplicates | 1 | TRUE or FALSE | [VS:GetPref](#) |
-| Full Screen Cursor | 2 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Screen Hints | 3 | TRUE or FALSE | [VS:GetPref](#) |
-| Floating Datum | 4 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap To Loci | 5 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Rulers | 6 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Scroll Bars | 7 | TRUE or FALSE | [VS:GetPref](#) |
-| No Fill Behind Text | 8 | TRUE or FALSE | [VS:GetPref](#) |
-| Zoom Line Thickness | 9 | TRUE or FALSE | [VS:GetPref](#) |
-| Black and White Only | 10 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Layer Colors | 11 | TRUE or FALSE | [VS:GetPref](#) |
-| Log Time in Program | 12 | TRUE or FALSE | [VS:GetPref](#) |
-| Adjust Flipped Text | 13 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Other Objects While In Group | 14 | TRUE or FALSE | [VS:GetPref](#) |
-| Show 3D Axis Labels | 15 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Black Background | 16 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Eight Selection Handles | 17 | TRUE or FALSE | [VS:GetPref](#) |
+| Click-Drag Mode | 0 | TRUE or FALSE | [GetPref](GetPref.md) |
+| Offset Duplicates | 1 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Full Screen Cursor | 2 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Screen Hints | 3 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Floating Datum | 4 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap To Loci | 5 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Rulers | 6 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Scroll Bars | 7 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| No Fill Behind Text | 8 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Zoom Line Thickness | 9 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Black and White Only | 10 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Layer Colors | 11 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Log Time in Program | 12 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Adjust Flipped Text | 13 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Other Objects While In Group | 14 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show 3D Axis Labels | 15 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Black Background | 16 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Eight Selection Handles | 17 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Current Background Color | 4003 | | [[vs:GetPrefRGB]] |
-| Use Sound | 18 | TRUE or FALSE | [VS:GetPref](#) |
-| Issue Undo Warnings | 19 | TRUE or FALSE | [VS:GetPref](#) |
-| Opaque SmartCursor | 20 | TRUE or FALSE | [VS:GetPref](#) |
-| Stop VectorScript on Warnings | 21 | TRUE or FALSE | [VS:GetPref](#) |
-| Left Palette Margin | 22 | TRUE or FALSE | [VS:GetPref](#) |
-| Right Palette Margin | 23 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Save Reminder | 24 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Parametric Constraints | 25 | TRUE or FALSE | [VS:GetPref](#) |
-| Display Minor Alerts on Mode Bar | 27 | TRUE or FALSE | [VS:GetPref](#) |
-| Associate Dimensions | 28 | TRUE or FALSE | [VS:GetPref](#) |
-| Spell Check Capitalized Words | 29 | TRUE or FALSE | [VS:GetPref](#) |
-| Spell Check Words in ALL CAPS | 30 | TRUE or FALSE | [VS:GetPref](#) |
-| Spell Check Mixed Case Words | 31 | TRUE or FALSE | [VS:GetPref](#) |
-| Spell Check Words With Numbers | 32 | TRUE or FALSE | [VS:GetPref](#) |
-| Auto Join Walls | 33 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Page Breaks | 34 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Grid | 35 | TRUE or FALSE | [VS:GetPref](#) |
-| Print Grid | 36 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap To Grid | 37 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap To Object | 38 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Occluded Picking And Snapping | 105 | TRUE or FALSE | [VS:GetPref](#) |
-| Save By Time | 39 | TRUE or FALSE | [VS:GetPref](#) |
-| Save Confirm | 40 | TRUE or FALSE | [VS:GetPref](#) |
-| Save To Backup | 41 | TRUE or FALSE | [VS:GetPref](#) |
-| Palette Docking | 43 | TRUE or FALSE | [VS:GetPref](#) |
-| Create Dimensions in Dimension Class | 44 | TRUE or FALSE | [VS:GetPref](#) |
-| Accelerated 2D Navigation | 45 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Vector Caching | 46 | TRUE or FALSE | [VS:GetPref](#) |
-| Sketch Hidden Line | 47 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Edge Points | 48 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Page Boundary | 49 | TRUE or FALSE | [VS:GetPref](#) |
-| Display Default Content | 130 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Sound | 18 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Issue Undo Warnings | 19 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Opaque SmartCursor | 20 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Stop VectorScript on Warnings | 21 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Left Palette Margin | 22 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Right Palette Margin | 23 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Save Reminder | 24 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Parametric Constraints | 25 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Display Minor Alerts on Mode Bar | 27 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Associate Dimensions | 28 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Spell Check Capitalized Words | 29 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Spell Check Words in ALL CAPS | 30 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Spell Check Mixed Case Words | 31 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Spell Check Words With Numbers | 32 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Auto Join Walls | 33 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Page Breaks | 34 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Grid | 35 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Print Grid | 36 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap To Grid | 37 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap To Object | 38 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Occluded Picking And Snapping | 105 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Save By Time | 39 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Save Confirm | 40 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Save To Backup | 41 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Palette Docking | 43 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Create Dimensions in Dimension Class | 44 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Accelerated 2D Navigation | 45 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Vector Caching | 46 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Sketch Hidden Line | 47 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Edge Points | 48 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Page Boundary | 49 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Display Default Content | 130 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Dimension Slash Thickness Unit | 50 | 3 = points, 2 = mils, 1 = mm | [VS:GetPrefInt](#) |
 | 3D Rotation Responsiveness | 52 | 1(detailed)..5(responsive) | [VS:GetPrefInt](#) |
 | Custom Constraint Angle | 53 | REAL (degrees) | [VS:GetPrefReal](#) |
@@ -126,115 +126,115 @@
 | | | 3 (shift+arrow) | |
 | | | 4 (shift+cmd+arrow) | |
 | Nudge Objects Keys | 75 | 1-4 (see above) | [VS:GetPrefInt](#) |
-| Show Nudge Message | 6712 | TRUE or FALSE | [VS:GetPref](#) |
+| Show Nudge Message | 6712 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Pan Drawing Keys | 76 | 1-4 (see above) | [VS:GetPrefInt](#) |
 | Switch Active Layer/Class Keys | 77 | 1-4 (see above) | [VS:GetPrefInt](#) |
 | Default Compression | 86 | 1 = JPEG, 2 = PNG | [VS:GetPrefInt](#) |
 | Line Weight Array Count | 87 | INTEGER | [VS:GetPrefInt](#) |
 | Sound Volume | 88 | INTEGER | [VS:GetPrefInt](#) |
 | Custom Move Distance | 89 | REAL | [VS:GetPrefReal](#) |
-| Plan Rotation | 92 | TRUE or FALSE | [VS:GetPref](#) |
+| Plan Rotation | 92 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Plan Rotation Angle | 93 | REAL (read-only) | [VS:GetPrefReal](#) |
-| Stack Layers | 94 | TRUE or FALSE | [VS:GetPref](#) |
-| Stack Layers Create 2D Objects | 95 | TRUE or FALSE | [VS:GetPref](#) |
-| Stack Layers Ignore Other Scales | 96 | TRUE or FALSE | [VS:GetPref](#) |
-| Stack Layers Restore Views | 97 | TRUE or FALSE | [VS:GetPref](#) |
+| Stack Layers | 94 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Stack Layers Create 2D Objects | 95 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Stack Layers Ignore Other Scales | 96 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Stack Layers Restore Views | 97 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Use Open MP Multithreading | 98 | 0 (No) | [VS:GetPrefInt](#) |
 | | | 1 (Yes) | |
 | | | 2 (Partial) | |
-| Stack Layers Center View | 99 | TRUE or FALSE | [VS:GetPref](#) |
+| Stack Layers Center View | 99 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Text Font Name | 100 | STRING | [VS:GetPrefString](#) |
-| Stack Layers Show Page Boundary | 101 | TRUE or FALSE | [VS:GetPref](#) |
-| Stack Layers Only Active Layer 2D Objects | 102 | TRUE or FALSE | [VS:GetPref](#) |
-| Stack Layers Display Only Story Layers | 103 | TRUE or FALSE | [VS:GetPref](#) |
-| Stack Layers Stories Enabled | 104 | TRUE or FALSE | [VS:GetPref](#) |
-| Enable Legacy 2D Layer Mode | 6839 | TRUE or FALSE | [VS:GetPref](#) |
+| Stack Layers Show Page Boundary | 101 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Stack Layers Only Active Layer 2D Objects | 102 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Stack Layers Display Only Story Layers | 103 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Stack Layers Stories Enabled | 104 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Enable Legacy 2D Layer Mode | 6839 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Angular Precision | 120 | INTEGER | [VS:GetPrefInt](#) |
 | Angular Unit | 121 | 0 (degrees) | [VS:GetPrefInt](#) |
 | | | 1 (radians) | |
 | | | 2 (gradians) | |
-| Resetting Plugin-ins During File Read | 129 | TRUE or FALSE | [VS:GetPref](#) |
-| Enable Vectorworks Libraries | 130 | TRUE or FALSE | [VS:GetPref](#) |
-| Auto File Extensions On Mac | 131 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Advanced Imaging | 132 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Anti Aliasing | 133 | TRUE or FALSE | [VS:GetPref](#) |
-| Auto Associate Dims | 134 | TRUE or FALSE | [VS:GetPref](#) |
-| Mouse Wheel Zoom | 135 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Custom Move Distance | 136 | TRUE or FALSE | [VS:GetPref](#) |
-| Print Switch Binary | 137 | TRUE or FALSE | [VS:GetPref](#) |
-| Create New Document on Startup | 138 | TRUE or FALSE | [VS:GetPref](#) |
-| Change Layer for Create Similar | 139 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Watermarks | 142 | TRUE or FALSE | [VS:GetPref](#) |
+| Resetting Plugin-ins During File Read | 129 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Enable Vectorworks Libraries | 130 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Auto File Extensions On Mac | 131 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Advanced Imaging | 132 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Anti Aliasing | 133 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Auto Associate Dims | 134 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Mouse Wheel Zoom | 135 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Custom Move Distance | 136 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Print Switch Binary | 137 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Create New Document on Startup | 138 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Change Layer for Create Similar | 139 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Watermarks | 142 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Unit1 Dim Fraction Display Style | 190 | 0 (regular style) | [VS:GetPrefInt](#) |
 | | | 1 (diagonal style) | |
 | | | 2 (horizontal style) | |
-| DXF Add Prefix To DXF Layers | 328 | TRUE or FALSE | [VS:GetPref](#) |
+| DXF Add Prefix To DXF Layers | 328 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | DXF Prefix To DXF Edit | 329 | STRING value | [VS:GetPrefString](#) |
 | DXF External Refs Handling | 330 | 0 (Bind External Refs) | [VS:GetPrefInt](#) |
 | | | 1 (Ignore External Refs) | |
 | | | 2 (Create VW Refs) | |
 | | | 3 (Use Layer Import) | |
-| DXF ADT Objects 2D View | 331 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Framed Highlighting | 410 | TRUE or FALSE | [VS:GetPref](#) |
-| Smart Cursor Show Interactive Segment | 411 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap To Tool Snap Geometry Only | 460 | TRUE or FALSE | [VS:GetPref](#) |
-| whether to coordinate sheet and drawing numbers for various items | 544 | TRUE or FALSE | [VS:GetPref](#) |
-| Auto Save To Custom Location | 552 | TRUE or FALSE | [VS:GetPref](#) |
+| DXF ADT Objects 2D View | 331 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Framed Highlighting | 410 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Smart Cursor Show Interactive Segment | 411 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap To Tool Snap Geometry Only | 460 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| whether to coordinate sheet and drawing numbers for various items | 544 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Auto Save To Custom Location | 552 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Autosave Custom Location | 554 | STRING value | [VS:GetPrefString](#) |
-| Keep Backups By Number Value | 555 | TRUE or FALSE | [VS:GetPref](#) |
-| Center View | 558 | TRUE or FALSE | [VS:GetPref](#) |
-| Allow Copy on Option Click | 559 | TRUE or FALSE | [VS:GetPref](#) |
+| Keep Backups By Number Value | 555 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Center View | 558 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Allow Copy on Option Click | 559 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | AutoUpdate Frequency | 1054 | INTEGER | [VS:GetPrefInt](#) |
 | Error Reporting Mode | 1056 | INTEGER | [VS:GetPrefInt](#) |
-| Use Multithreading for Textures | 1057 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Multithreading for Image | 1058 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Multithreading for Render | 1059 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Multithreading for Geometry | 1060 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Multithreading for DTM | 1061 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Multithreading for Other | 1062 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Multithreading for Textures | 1057 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Multithreading for Image | 1058 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Multithreading for Render | 1059 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Multithreading for Geometry | 1060 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Multithreading for DTM | 1061 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Multithreading for Other | 1062 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Use Open MP Multithreading | 98 | 0 = No | [VS:GetPrefInt](#) |
 | | | 1 = Yes | |
 | | | 2 = Partial | |
-| Save DTM Cache | 1097 | TRUE or FALSE | [VS:GetPref](#) |
-| Enable X-Ray Mode | 106 | TRUE or FALSE | [VS:GetPref](#) |
-| Scale Layer Text | 107 | TRUE or FALSE | [VS:GetPref](#) |
-| Hierarchical Classes In Popups | 108 | TRUE or FALSE | [VS:GetPref](#) |
-| Save Expand State Of Classes In Popups | 111 | TRUE or FALSE | [VS:GetPref](#) |
-| Save Undo View Changes | 112 | TRUE or FALSE | [VS:GetPref](#) |
-| Fill Style By Class | 534 | TRUE or FALSE | [VS:GetPref](#) |
+| Save DTM Cache | 1097 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Enable X-Ray Mode | 106 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Scale Layer Text | 107 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Hierarchical Classes In Popups | 108 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Save Expand State Of Classes In Popups | 111 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Save Undo View Changes | 112 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Fill Style By Class | 534 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Setting low detail factor. If LayerScales >= LowDetailFactor will only show low detail and will hide wall cavities | 538 | REAL | [VS:GetPrefReal](#) |
 | Setting medium detail factor. LayerScales >= MediumDetailFactor will show medium detail, <= MediumDetailFactor will show high detail | 539 | REAL | [VS:GetPrefReal](#) |
-| View Transition Animation | 1227 | TRUE or FALSE | [VS:GetPref](#) |
-| View Transition Speed | 6725 | Real | [VS:GetPref](#) |
-| Allow Docking to Drawing | 6752 | TRUE or FALSE | [VS:GetPref](#) |
-| Allow Internal Palette Docking | 6753 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Docked Document Tabs | 6754 | TRUE or FALSE | [VS:GetPref](#) |
-| Force the tool to trap the shift key for when it is used with the short keys for modebar | 6770 | TRUE or FALSE (write only) | [VS:GetPref](#) |
-| Controls the state in which windowshaded palettes automaticaly unshade based on mouse proximity | 6775 | TRUE or FALSE | [VS:GetPref](#) |
-| Controls the state in which docked palettes automaticaly hides based on mouse proximity | 6776 | TRUE or FALSE | [VS:GetPref](#) |
+| View Transition Animation | 1227 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| View Transition Speed | 6725 | Real | [GetPref](GetPref.md)  |
+| Allow Docking to Drawing | 6752 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Allow Internal Palette Docking | 6753 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Docked Document Tabs | 6754 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Force the tool to trap the shift key for when it is used with the short keys for modebar | 6770 | TRUE or FALSE (write only) | [GetPref](GetPref.md)  |
+| Controls the state in which windowshaded palettes automaticaly unshade based on mouse proximity | 6775 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Controls the state in which docked palettes automaticaly hides based on mouse proximity | 6776 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Worksheet parameter delimiter | 6798 | String | [VS:GetPrefString](#) |
-| Turns screen redraws on/off | 6799 | Boolean | [VS:GetPref](#) |
-| Enable Multiview | 6802 | Boolean | [VS:GetPref](#) |
-| Multiview visibilities | 6803 | Boolean | [VS:GetPref](#) |
-| turns on/off the Duplicate Tags With Objects | 6804 | [VS:GetPref](#) |
-| turns on/off the drawing of the ray+octree intersected mesh vrefs | 6806 | Boolean | [VS:GetPref](#) |
-| Enable profile VectorScript execution | 6807 | Boolean | [VS:GetPref](#) |
-| Enable profile VectorScript execution | 6807 | Boolean | [VS:GetPref](#) |
-| Enable On Demand Level Of Detail | 6808 | Boolean | [VS:GetPref](#) |
-| Hide GPU Display Alert Dialog | 6809 | Boolean | [VS:GetPref](#) |
-| Hide Graphics Adapters Alert Dialog | 6810 | Boolean | [VS:GetPref](#) |
-| Enable OnDemand Level Of Detail 2D | 6811 | Boolean | [VS:GetPref](#) |
+| Turns screen redraws on/off | 6799 | Boolean | [GetPref](GetPref.md)  |
+| Enable Multiview | 6802 | Boolean | [GetPref](GetPref.md)  |
+| Multiview visibilities | 6803 | Boolean | [GetPref](GetPref.md)  |
+| turns on/off the Duplicate Tags With Objects | 6804 | [GetPref](GetPref.md)  |
+| turns on/off the drawing of the ray+octree intersected mesh vrefs | 6806 | Boolean | [GetPref](GetPref.md)  |
+| Enable profile VectorScript execution | 6807 | Boolean | [GetPref](GetPref.md)  |
+| Enable profile VectorScript execution | 6807 | Boolean | [GetPref](GetPref.md)  |
+| Enable On Demand Level Of Detail | 6808 | Boolean | [GetPref](GetPref.md)  |
+| Hide GPU Display Alert Dialog | 6809 | Boolean | [GetPref](GetPref.md)  |
+| Hide Graphics Adapters Alert Dialog | 6810 | Boolean | [GetPref](GetPref.md)  |
+| Enable OnDemand Level Of Detail 2D | 6811 | Boolean | [GetPref](GetPref.md)  |
 | Smart Cursor Lock Special X | 6812 | REAL | [VS:GetPrefReal](#) |
 | Smart Cursor Lock Special Y | 6813 | REAL | [VS:GetPrefReal](#) |
-| Use OpenGL Background Context | 6816 | Boolean | [VS:GetPref](#) |
-| Use Duplicates For Raster VPs | 6817 | Boolean | [VS:GetPref](#) |
+| Use OpenGL Background Context | 6816 | Boolean | [GetPref](GetPref.md)  |
+| Use Duplicates For Raster VPs | 6817 | Boolean | [GetPref](GetPref.md)  |
 | Default Render Mode Render Mode | 1318 | INTEGER | [VS:GetPrefInt](#) |
 | Default Render Mode Projection Mode | 1319 | INTEGER | [VS:GetPrefInt](#) |
-| Use Local Help System | 6724 | TRUE or FALSE | [VS:GetPref](#) |
-| Display Home Screen on Startup | 7009 | TRUE or FALSE | [VS:GetPref](#) |
-| Display Home Screen on Closing Last Doc | 7010 | TRUE or FALSE | [VS:GetPref](#) |
-| Enable Legacy Eight Lights | 7100 | TRUE or FALSE | [VS:GetPref](#) |
-| Display Non-Printable Indicators | 7301 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Local Help System | 6724 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Display Home Screen on Startup | 7009 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Display Home Screen on Closing Last Doc | 7010 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Enable Legacy Eight Lights | 7100 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Display Non-Printable Indicators | 7301 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Release Version Integer | 570 | SHORT - The release version integer defaults to 0 | [VS:GetPrefInt](#) |
 | get/set the insertion mode of the symbol tool | 580 | SHORT | [VS:GetPrefInt](#) |
 | get/set the wall insertion mode of the symbol tool | 581 | SHORT | [VS:GetPrefInt](#) |
@@ -247,21 +247,21 @@
 
 | Preference | Selector | Preference Data Type | Function |
 |------------|----------|----------------------|----------|
-| Store / Recall Interactive Preferences | 1200 | Set=Store Get=Recall | [VS:GetPref](#) |
-| Show Selection Box | 1000 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Snap Box | 1001 | TRUE or FALSE | [VS:GetPref](#) |
+| Store / Recall Interactive Preferences | 1200 | Set=Store Get=Recall | [GetPref](GetPref.md)  |
+| Show Selection Box | 1000 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Snap Box | 1001 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Animation Mode | 1003 | INTEGER | [VS:GetPrefInt](#) |
-| Pre-selection Highlighting | 1004 | TRUE or FALSE | [VS:GetPref](#) |
-| Marquee Pre-selection Highlighting | 1005 | TRUE or FALSE | [VS:GetPref](#) |
-| Snapped Object Pre-selection Highlighting | 1006 | TRUE or FALSE | [VS:GetPref](#) |
-| Tool Highlighting | 1007 | TRUE or FALSE | [VS:GetPref](#) |
+| Pre-selection Highlighting | 1004 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Marquee Pre-selection Highlighting | 1005 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snapped Object Pre-selection Highlighting | 1006 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Tool Highlighting | 1007 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Highlighting Timer | 1008 | REAL | [VS:GetPrefReal](#) |
 | Selection Radius | 1009 | REAL | [VS:GetPrefReal](#) |
 | Snap Box Radius | 1010 | REAL | [VS:GetPrefReal](#) |
-| Show Snap Points | 1013 | TRUE or FALSE | [VS:GetPref](#) |
-| Zoom to Linethickness in Snap Loop | 1014 | TRUE or FALSE | [VS:GetPref](#) |
-| Offset from Source | 1015 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Acquisition Hints | 1016 | TRUE or FALSE | [VS:GetPref](#) |
+| Show Snap Points | 1013 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Zoom to Linethickness in Snap Loop | 1014 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Offset from Source | 1015 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Acquisition Hints | 1016 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Reference Grid X | 1019 | REAL | [VS:GetPrefReal](#) |
 | Reference Grid Y | 1020 | REAL | [VS:GetPrefReal](#) |
 | Grid Angle Y | 1021 | REAL | [VS:GetPrefReal](#) |
@@ -270,90 +270,90 @@
 | Sheet Layer Reference Grid X | 1024 | REAL | [VS:GetPrefReal](#) |
 | Sheet Layer Reference Grid Y | 1025 | REAL | [VS:GetPrefReal](#) |
 | Sheet Layer Grid Angle Y | 1026 | REAL | [VS:GetPrefReal](#) |
-| Snap to End Point | 1027 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Mid Point | 1028 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Center Point | 1029 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Quadrant Points | 1030 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Insertion Point | 1031 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Vertex Points | 1032 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Nearest point on Edge | 1033 | TRUE or FALSE | [VS:GetPref](#) |
+| Snap to End Point | 1027 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Mid Point | 1028 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Center Point | 1029 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Quadrant Points | 1030 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Insertion Point | 1031 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Vertex Points | 1032 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Nearest point on Edge | 1033 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Snap Angles in Degrees | 1034 | Angles are separated by a Semicolon | [VS:GetPrefString](#) |
-| Plan Rotation | 1035 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Alternate Cordinate Extension Lines | 1036 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Horizontal Vertical Extensions | 1037 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Angular Extensions | 1038 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Floating Smart Point | 1039 | TRUE or FALSE | [VS:GetPref](#) |
+| Plan Rotation | 1035 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Alternate Cordinate Extension Lines | 1036 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Horizontal Vertical Extensions | 1037 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Angular Extensions | 1038 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Floating Smart Point | 1039 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Acquire Smart Point if the mouse stops for | 1040 | REAL | [VS:GetPrefReal](#) |
 | Set Datum if mouse stops for | 1041 | REAL | [VS:GetPrefReal](#) |
-| Use Datum Offset | 1042 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Datum Offset | 1042 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Datum Offset | 1043 | REAL | [VS:GetPrefReal](#) |
-| Acquire Edge | 1044 | TRUE or FALSE | [VS:GetPref](#) |
+| Acquire Edge | 1044 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Acquire Edge if mouse follows edge for | 1045 | REAL | [VS:GetPrefReal](#) |
-| Snap to Bisector | 1046 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Offset | 1047 | TRUE or FALSE | [VS:GetPref](#) |
+| Snap to Bisector | 1046 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Offset | 1047 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Snap Offset Diatance | 1048 | REAL | [VS:GetPrefReal](#) |
-| Snap to Extension Lines | 1049 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap Proportional | 1050 | TRUE or FALSE | [VS:GetPref](#) |
+| Snap to Extension Lines | 1049 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap Proportional | 1050 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Snap by Percent | 1051 | REAL | [VS:GetPrefReal](#) |
 | Snap by Distance | 1052 | REAL | [VS:GetPrefReal](#) |
-| Snap Mutiple Divisions | 1053 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Others in Group Gray | 1055 | TRUE or FALSE | [VS:GetPref](#) |
-| Show 3D Z Axis | 1063 | TRUE or FALSE | [VS:GetPref](#) |
-| Show 3D Z Axis Grp | 1064 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Relative Angles | 1086 | TRUE or FALSE | [VS:GetPref](#) |
+| Snap Mutiple Divisions | 1053 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Others in Group Gray | 1055 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show 3D Z Axis | 1063 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show 3D Z Axis Grp | 1064 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Relative Angles | 1086 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Relative Snap Angle | 1087 | Clockwise from Horizontal | [VS:GetPrefReal](#) |
-| Relative Snap Angle Hint | 1088 | TRUE = Tangent FALSE = Parallel | [VS:GetPref](#) |
-| Clear Relative Angle and Hint | 1089 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Combined Page Area | 1090 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Individual Pages | 1091 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Angles form Axes | 1092 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Alternate Cordinate System | 1093 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Line Between Smart Points | 1094 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to All Extensions from Nearby Smart Points | 1095 | TRUE or FALSE | [VS:GetPref](#) |
-| Disable All Snaps | 1096 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Working Plane Axes in Plan View | 1098 | TRUE or FALSE | [VS:GetPref](#) |
+| Relative Snap Angle Hint | 1088 | TRUE = Tangent FALSE = Parallel | [GetPref](GetPref.md)  |
+| Clear Relative Angle and Hint | 1089 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Combined Page Area | 1090 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Individual Pages | 1091 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Angles form Axes | 1092 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Alternate Cordinate System | 1093 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Line Between Smart Points | 1094 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to All Extensions from Nearby Smart Points | 1095 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Disable All Snaps | 1096 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Working Plane Axes in Plan View | 1098 | TRUE or FALSE | [GetPref](GetPref.md)  |
 
 ### Interactive Smart Cursor Dialog Preference Selectors
 
 | Preference | Selector | Preference Data Type | Function |
 |------------|----------|----------------------|----------|
-| Store / Recall Interactive Preferences | 1200 | Set=Store Get=Recall | [VS:GetPref](#) |
-| Full Screen Cursor | 1210 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Selection Box | 1211 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Snap Box | 1212 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Acquisition Hints | 1213 | TRUE or FALSE | [VS:GetPref](#) |
+| Store / Recall Interactive Preferences | 1200 | Set=Store Get=Recall | [GetPref](GetPref.md)  |
+| Full Screen Cursor | 1210 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Selection Box | 1211 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Snap Box | 1212 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Acquisition Hints | 1213 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Selection Radius | 1214 | Screen Inches | [VS:GetPrefReal](#) |
 | Snap Radius | 1215 | Screen Inches | [VS:GetPrefReal](#) |
 | Grid Radius | 1216 | Screen Inches | [VS:GetPrefReal](#) |
 | Selection Highlighting Mode | 1220 | | [VS:GetPrefInt](#) |
 | Animation Mode | 1221 | | [VS:GetPrefInt](#) |
-| Cursor Preselection Highlighting | 1222 | TRUE or FALSE | [VS:GetPref](#) |
-| Marquee Preselection Highlighting | 1223 | TRUE or FALSE | [VS:GetPref](#) |
-| Snapped Object Highlighting | 1224 | TRUE or FALSE | [VS:GetPref](#) |
-| Tool Highlighting | 1225 | TRUE or FALSE | [VS:GetPref](#) |
+| Cursor Preselection Highlighting | 1222 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Marquee Preselection Highlighting | 1223 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snapped Object Highlighting | 1224 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Tool Highlighting | 1225 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Highlighting Timer | 1226 | | [VS:GetPrefReal](#) |
-| Show Smart Cursor Cues | 1230 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Snap Points | 1231 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Loci | 1232 | TRUE or FALSE | [VS:GetPref](#) |
-| Zoom Line Thickness in Snap Loop | 1233 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Combined Page Area | 1234 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Individual Pages | 1235 | TRUE or FALSE | [VS:GetPref](#) |
-| Offset from Source | 1236 | TRUE or FALSE | [VS:GetPref](#) |
-| Ignore Non Planar Shapes | 1237 | TRUE or FALSE | [VS:GetPref](#) |
-| Do Not Show Grid | 1240 | TRUE or FALSE | [VS:GetPref](#) |
-| Print Grid | 1241 | TRUE or FALSE | [VS:GetPref](#) |
-| Show 3D Axis Grid | 1242 | TRUE or FALSE | [VS:GetPref](#) |
-| Show 3D Axis Grid Labels | 1243 | TRUE or FALSE | [VS:GetPref](#) |
-| Show 3D Axis Grid Grip | 1299 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to End Points | 1250 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Mid Point | 1251 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Center | 1252 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Quad | 1253 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Intersection | 1254 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Vertex | 1255 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Edge | 1256 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Master | 1257 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to User Angles | 1260 | TRUE or FALSE | [VS:GetPref](#) |
+| Show Smart Cursor Cues | 1230 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Snap Points | 1231 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Loci | 1232 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Zoom Line Thickness in Snap Loop | 1233 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Combined Page Area | 1234 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Individual Pages | 1235 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Offset from Source | 1236 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Ignore Non Planar Shapes | 1237 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Do Not Show Grid | 1240 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Print Grid | 1241 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show 3D Axis Grid | 1242 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show 3D Axis Grid Labels | 1243 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show 3D Axis Grid Grip | 1299 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to End Points | 1250 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Mid Point | 1251 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Center | 1252 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Quad | 1253 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Intersection | 1254 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Vertex | 1255 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Edge | 1256 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Master | 1257 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to User Angles | 1260 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | User Angle Count | 1261 | 1 to 8 | [VS:GetPrefInt](#) |
 | User Angle Degrees 1 | 1262 | | [VS:GetPrefReal](#) |
 | User Angle Degrees 2 | 1263 | | [VS:GetPrefReal](#) |
@@ -363,30 +363,30 @@
 | User Angle Degrees 6 | 1267 | | [VS:GetPrefReal](#) |
 | User Angle Degrees 7 | 1268 | | [VS:GetPrefReal](#) |
 | User Angle Degrees 8 | 1269 | | [VS:GetPrefReal](#) |
-| Snap to Relative Angles | 1280 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Plan Rotation Angle | 1281 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Alternative Coordinate System | 1282 | TRUE or FALSE | [VS:GetPref](#) |
+| Snap to Relative Angles | 1280 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Plan Rotation Angle | 1281 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Alternative Coordinate System | 1282 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Alternative Coordinate System Angle | 1283 | | [VS:GetPrefReal](#) |
-| Use Horizontal and Vertical Extensions | 1290 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Angular Extensions | 1291 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Lines Between Smart Points | 1292 | TRUE or FALSE | [VS:GetPref](#) |
-| Allow Extensions from Nearby Smart Points | 1293 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Floating Smart Points | 1294 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Horizontal and Vertical Extensions | 1290 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Angular Extensions | 1291 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Lines Between Smart Points | 1292 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Allow Extensions from Nearby Smart Points | 1293 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Floating Smart Points | 1294 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Floating Point Smart Time | 1295 | Seconds | [VS:GetPrefReal](#) |
-| Use Floating Datum | 1296 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Floating Datum | 1296 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Floating Datum Time | 1297 | Seconds | [VS:GetPrefReal](#) |
-| Use Floating Edges | 1300 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Floating Edges | 1300 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Floating Edge Time | 1301 | Seconds | [VS:GetPrefReal](#) |
 | Use Angle Bisector | 1302 | TRUE or FALSE | [VS:GetPrefReal](#) |
-| Use Curve Extensions | 1303 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Object | 1310 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Grid | 1311 | TRUE or FALSE | [VS:GetPref](#) |
-| Constrain to Angle | 1312 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Intersection | 1313 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Smart Points | 1314 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Distance | 1315 | TRUE or FALSE | [VS:GetPref](#) |
-| Snap to Smart Edge | 1316 | TRUE or FALSE | [VS:GetPref](#) |
-| Constrain Tangent | 1317 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Curve Extensions | 1303 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Object | 1310 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Grid | 1311 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Constrain to Angle | 1312 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Intersection | 1313 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Smart Points | 1314 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Distance | 1315 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Snap to Smart Edge | 1316 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Constrain Tangent | 1317 | TRUE or FALSE | [GetPref](GetPref.md)  |
 
 ### Interactive Appearance Preference Selectors
 
@@ -447,8 +447,8 @@
 | Ruler Marks and Text | + 1500 | | |
 | Floating Databar Background | + 1530 | | |
 | Floating Databar Outline and Text | + 1560 | |
-| Property Available | + 0 | TRUE or FALSE | [VS:GetPref](#) |
-| Different Background Color | + 1 | TRUE or FALSE | [VS:GetPref](#) |
+| Property Available | + 0 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Different Background Color | + 1 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Pattern | + 2 | INTEGER | [VS:GetPrefInt](#) |
 | Foreground Color | + 4 | RGB | [VS:GetPrefRGB](#) |
 | Background Color | + 5 | RGB | [VS:GetPrefRGB](#) |
@@ -468,11 +468,11 @@
 
 | Preference | Selector | Preference Data Type | Function |
 |------------|----------|----------------------|----------|
-| Use ODM | 6900 | TRUE or FALSE | [VS:GetPref](#) |
-| Show ODM After Mouse Idle | 6901 | TRUE or FALSE | [VS:GetPref](#) |
+| Use ODM | 6900 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show ODM After Mouse Idle | 6901 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | ODM Mouse Idle Timer | 6902 | INTEGER | [VS:GetPrefInt](#) |
-| Show ODM with Spacebar | 6903 | TRUE or FALSE | [VS:GetPref](#) |
-| Show ODM with Middle Mouse Button | 6904 | TRUE or FALSE | [VS:GetPref](#) |
+| Show ODM with Spacebar | 6903 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show ODM with Middle Mouse Button | 6904 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Initialize ODM Layout | 6905 | INTEGER | [VS:GetPrefInt](#) |
 | | | 0 (Icon Hint) | [VS:GetPrefInt](#) |
 | | | 1 (Text Hint) | [VS:GetPrefInt](#) |
@@ -493,8 +493,8 @@
 | | | 2 (Bottom Left) | [VS:GetPrefInt](#) |
 | | | 3 (Bottom Right) | [VS:GetPrefInt](#) |
 | | 3 (Tool Set ID) | | |
-| Show ODM Search Filters | 7000 | True or False | [VS:GetPref](#) |
-| Show ODM Command Context | 7001 | True or False | [VS:GetPref](#) |
+| Show ODM Search Filters | 7000 | True or False | [GetPref](GetPref.md)  |
+| Show ODM Command Context | 7001 | True or False | [GetPref](GetPref.md)  |
 | | | 4 (Tool Set Name) |
 
 ## Primary Units Selectors
@@ -513,12 +513,12 @@
 | Cube Unit Mark | 160 | STRING value | [VS:GetPrefString](#) |
 | Cube Unit Divisor | 161 | LONGINT | [VS:GetPrefLongInt](#) |
 | Display Fraction | 162 | LONGINT value | [VS:GetPrefLongInt](#) |
-| Show Unit Mark | 163 | TRUE or FALSE | [VS:GetPref](#) |
-| Display Leading Zero | 164 | TRUE or FALSE | [VS:GetPref](#) |
-| Display Trailing Zeroes | 165 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Minimum Units | 166 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Custom Units | 167 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Decimals as Fractions | 168 | TRUE or FALSE | [VS:GetPref](#) |
+| Show Unit Mark | 163 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Display Leading Zero | 164 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Display Trailing Zeroes | 165 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Minimum Units | 166 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Custom Units | 167 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Decimals as Fractions | 168 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Dimension Precision | 169 | LONGINT value | [VS:GetPrefLongInt](#) |
 | Predefined Units Style | 170 | 1 (Feet & Inches) | [VS:GetPrefInt](#) |
 | | | 2 (Inches) | [VS:GetPrefInt](#) |
@@ -533,11 +533,11 @@
 | | | 11 (Degrees – Landmark & Azimuth only) | [VS:GetPrefInt](#) |
 | Fractional Display Precision | 171 | LONGINT value | [VS:GetPrefLongInt](#) |
 | Fractional Dimension Precision | 172 | LONGINT value | [VS:GetPrefLongInt](#) |
-| Metric Unit Flag | 173 | TRUE or FALSE | [VS:GetPref](#) |
+| Metric Unit Flag | 173 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Angular Unit | 174 | 0 (degrees) | [VS:GetPrefInt](#) |
 | | | 1 (radians) | [VS:GetPrefInt](#) |
 | | | 2 (gradians) | [VS:GetPrefInt](#) |
-| Round Fraction to Decimal | 175 | TRUE or FALSE | [VS:GetPref](#) |
+| Round Fraction to Decimal | 175 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Area Units Per Square Inch | 176 | REAL value | [VS:GetPrefReal](#) |
 | Area Unit Name | 177 | STRING value | [VS:GetPrefString](#) |
 | Area Unit Mark | 178 | STRING value | [VS:GetPrefString](#) |
@@ -546,8 +546,8 @@
 | Volume Unit Name | 181 | STRING value | [VS:GetPrefString](#) |
 | Volume Unit Mark | 182 | STRING value | [VS:GetPrefString](#) |
 | Volume Precision | 183 | LONGINT value | [VS:GetPrefLongInt](#) |
-| Use Custom Area Units | 184 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Custom Volume Units | 185 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Custom Area Units | 184 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Custom Volume Units | 185 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Area Unit Fraction | 186 | REAL value | [VS:GetPrefReal](#) |
 | Volume Unit Fraction | 187 | REAL value | [VS:GetPrefReal](#) |
 | Display Rounding Base | 188 | 0 (1) | [VS:GetPrefInt](#) |
@@ -559,8 +559,8 @@
 | Dimension Rounding Base | 190 | 0 (regular style) | [VS:GetPrefInt](#) |
 | | | 1 (diagonal style) | [VS:GetPrefInt](#) |
 | | | 2 (horizontal style) | [VS:GetPrefInt](#) |
-| Show Thousands Separator | 191 | TRUE or FALSE | [VS:GetPref](#) |
-| Save and Restore Unit1 | 192 | TRUE or FALSE | [VS:GetPref](#) |
+| Show Thousands Separator | 191 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Save and Restore Unit1 | 192 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | HiddenLineDashType | 197 | Integer value | [VS:GetPrefInt](#) |
 | Default Dimension Class ID | 546 | RefNumber | [VS:GetPrefLongInt](#) |
 
@@ -689,7 +689,7 @@
 | | | 11 (Long Ton) | |
 | | | 12 (Custom) | |
 | Mass Unit Precision | 6822 | INTEGER | [VS:GetPrefInt](#) |
-| Show Unit Mark | 6823 | TRUE or FALSE | [VS:GetPref](#) |
+| Show Unit Mark | 6823 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Current Unit Mark | 6824 | STRING (Read Only) | [VS:GetPrefString](#) |
 | Unit Name | 6825 | STRING (Read Only) | [VS:GetPrefString](#) |
 | Mass Unit Scale per Gram | 6826 | Real (Read Only) | [VS:GetPrefReal](#) |
@@ -700,7 +700,7 @@
 | | | 3 (Pound Force) | |
 | | | 4 (Custom) | |
 | Force Unit Precision | 6828 | Integer | [VS:GetPrefInt](#) |
-| Show Force Unit Mark | 6829 | TRUE or FALSE | [VS:GetPref](#) |
+| Show Force Unit Mark | 6829 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Force Unit Mark | 6830 | STRING (Read Only) | [VS:GetPrefString](#) |
 | Force Unit Name | 6831 | STRING (Read Only) | [VS:GetPrefString](#) |
 | Force Unit Scale per Neuton | 6832 | REAL (Read Only) | [VS:GetPrefReal](#) |
@@ -711,7 +711,7 @@
 | | | 3 (Pound per Foot) | |
 | | | 4 (Custom) | |
 | Distributed Mass Unit Precision | 6834 | INTEGER | [VS:GetPrefInt](#) |
-| Distributed Mass Unit Show Unit Mark | 6835 | TRUE or FALSE | [VS:GetPref](#) |
+| Distributed Mass Unit Show Unit Mark | 6835 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Distributed Mass Unit Mark | 6836 | STRING | [VS:GetPrefString](#) |
 | Distributed Mass Unit Name | 6837 | STRING (Read Only) | [VS:GetPrefString](#) |
 | DistributedMassUnit Scale Grams per Millimeter | 6838 | REAL (Read Only) | [VS:GetPrefReal](#) |
@@ -722,15 +722,15 @@
 |------------|----------|----------------------|----------|
 | Default Gradient Fill | 508 | LONGINT | [VS:GetPrefLongInt](#) |
 | Default Gradient Fill Angle | 512 | REAL | [VS:GetPrefReal](#) |
-| Default Gradient Fill Repeat | 513 | TRUE or FALSE | [VS:GetPref](#) |
+| Default Gradient Fill Repeat | 513 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Default Gradient Fill Geometric Type | 515 | INTEGER | [VS:GetPrefInt](#) |
-| Default Gradient Fill Mirror | 516 | TRUE or FALSE | [VS:GetPref](#) |
-| Default Image Fill Maintain Aspect Ratio | 517 | TRUE or FALSE | [VS:GetPref](#) |
+| Default Gradient Fill Mirror | 516 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Default Image Fill Maintain Aspect Ratio | 517 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Default Image Fill | 518 | LONGINT | [VS:GetPrefLongInt](#) |
 | Default Image Fill Angle | 523 | REAL | [VS:GetPrefReal](#) |
-| Default Image Fill Repeat | 524 | TRUE or FALSE | [VS:GetPref](#) |
-| Default Image Fill Mirror | 526 | TRUE or FALSE | [VS:GetPref](#) |
-| Default Image Fill Flip | 527 | TRUE or FALSE | [VS:GetPref](#) |
+| Default Image Fill Repeat | 524 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Default Image Fill Mirror | 526 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Default Image Fill Flip | 527 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Default Image Fill I-Length | 532 | REAL (current units) | [VS:GetPrefReal](#) |
 | Default Image Fill J-Length | 533 | REAL (current units) | [VS:GetPrefReal](#) |
 | Default Fill Style | 528 | LONGINT | [VS:GetPrefLongInt](#) |
@@ -741,58 +741,58 @@
 
 | Preference | Selector | Preference Data Type | Function |
 |------------|----------|----------------------|----------|
-| RenderWorks Enabled | 240 | TRUE or FALSE | [VS:GetPref](#) |
-| Disable RenderWorks | 241 | TRUE or FALSE | [VS:GetPref](#) |
+| RenderWorks Enabled | 240 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Disable RenderWorks | 241 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | PDF Page Object Paint Node Resolution | 270 | LONGINT (DPI) | [VS:GetPrefLongInt](#) |
-| Don't Cache Plug-in Scripts | 407 | TRUE or FALSE | [VS:GetPref](#) |
-| Auto Refresh Mode | 450 | TRUE or FALSE | [VS:GetPref](#) |
+| Don't Cache Plug-in Scripts | 407 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Auto Refresh Mode | 450 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Window Zoom Factor | 500 | REAL | [VS:GetPrefReal](#) |
 | Layer Options | 506 | INTEGER | [VS:GetPrefInt](#) |
 | Class Options | 507 | INTEGER | [VS:GetPrefInt](#) |
 | Hide Wall Cavity Threshold | 540 | INTEGER | [VS:GetPrefInt](#) |
-| Save Viewport Cache | 541 | TRUE or FALSE | [VS:GetPref](#) |
-| Smooth Mesh | 542 | TRUE or FALSE | [VS:GetPref](#) |
+| Save Viewport Cache | 541 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Smooth Mesh | 542 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Mesh Crease Angle | 543 | REAL | [VS:GetPrefReal](#) |
-| Use Auto Draw Coord | 544 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Text Files in Plugin Editor | 560 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Auto Draw Coord | 544 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Text Files in Plugin Editor | 560 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Release Version Integer | 570 | INTEGER | [VS:GetPrefInt](#) |
 | Symbol Tool Insert Mode | 580 | INTEGER | [VS:GetPrefInt](#) |
-| Symbol Tool Wall Insertion | 581 | TRUE or FALSE | [VS:GetPref](#) |
+| Symbol Tool Wall Insertion | 581 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Symbol Tool Alignement Mode | 582 | INTEGER | [VS:GetPrefInt](#) |
 | Parametric Enable State Eventing | 590 | INTEGER | [VS:GetPrefInt](#) |
-| Update Text Style Size | 685 | TRUE or FALSE | [VS:GetPref](#) |
-| Hide Non Detail | 705 | TRUE or FALSE | [VS:GetPref](#) |
-| DVLP Position Locked | 709 | TRUE or FALSE (Read Only) | [VS:GetPref](#) |
+| Update Text Style Size | 685 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Hide Non Detail | 705 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| DVLP Position Locked | 709 | TRUE or FALSE (Read Only) | [GetPref](GetPref.md)  |
 | Display Horizontal DPI | 1011 | REAL (read-only) | [VS:GetPrefReal](#) |
 | Display Vertical DPI | 1012 | REAL (read-only) | [VS:GetPrefReal](#) |
-| Screen Plane Mode | 1099 | TRUE or FALSE | [VS:GetPref](#) |
-| Windows 64bit OS | 1100 | TRUE or FALSE (read-only) | [VS:GetPref](#) |
-| Is Autoplane Active | 1101 | TRUE or FALSE | [VS:GetPref](#) |
-| Plane Mode is set to ScreenOrWorkingPlane | 1102 | TRUE or FALSE (read-only) | [VS:GetPref](#) |
-| Enable online content | 1104 | TRUE or FALSE | [VS:GetPref](#) |
-| Enable Subscription Libraries | 1106 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Same Visibilities in All Panes | 1107 | TRUE or FALSE | [VS:GetPref](#) |
+| Screen Plane Mode | 1099 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Windows 64bit OS | 1100 | TRUE or FALSE (read-only) | [GetPref](GetPref.md)  |
+| Is Autoplane Active | 1101 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Plane Mode is set to ScreenOrWorkingPlane | 1102 | TRUE or FALSE (read-only) | [GetPref](GetPref.md)  |
+| Enable online content | 1104 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Enable Subscription Libraries | 1106 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Same Visibilities in All Panes | 1107 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | GeoRef Layer | 1117 | INTEGER | [VS:GetPrefInt](#) |
-| Compact Document Planes | 565 | TRUE or FALSE (write-only) | [VS:GetPref](#) |
+| Compact Document Planes | 565 | TRUE or FALSE (write-only) | [GetPref](GetPref.md)  |
 | Number of Document Planes | 566 | LONGINT | [VS:GetPrefLongInt](#) |
 | Max Document Planes | 567 | LONGINT | [VS:GetPrefLongInt](#) |
-| Plan Rotation Paused | 591 | TRUE or FALSE (read-only) | [VS:GetPref](#) |
+| Plan Rotation Paused | 591 | TRUE or FALSE (read-only) | [GetPref](GetPref.md)  |
 | Plan Rotation Paused Angle | 592 | REAL (read-only) | [VS:GetPrefReal](#) |
-| Use Screen and Working Plane | 1102 | TRUE or FALSE | [VS:GetPref](#) |
-| Perspective Cropped | 127 | TRUE or FALSE | [VS:GetPref](#) |
-| Use Old 2D Pan and Zoom | 128 | TRUE or FALSE | [VS:GetPref](#) |
-| Interactive Zoom Pan Mode | 6704 | TRUE or FALSE | [VS:GetPref](#) |
-| Heliodon Interactive Render | 6706 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Clip Cube | 6707 | TRUE or FALSE | [VS:GetPref](#) |
-| Write VS Binary Mode | 6708 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Hidden Line Surface Hatches | 280 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Hidden Line Text And Markers | 281 | TRUE or FALSE | [VS:GetPref](#) |
-| Show Linear Direction Marker | 6719 | TRUE or FALSE | [VS:GetPref](#) |
+| Use Screen and Working Plane | 1102 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Perspective Cropped | 127 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Use Old 2D Pan and Zoom | 128 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Interactive Zoom Pan Mode | 6704 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Heliodon Interactive Render | 6706 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Clip Cube | 6707 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Write VS Binary Mode | 6708 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Hidden Line Surface Hatches | 280 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Hidden Line Text And Markers | 281 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Show Linear Direction Marker | 6719 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Feedback Scale Factor | 6716 | REAL (read-only) | [VS:GetPrefReal](#) |
 | Feedback Resolution | 6717 | REAL (read-only) | [VS:GetPrefReal](#) |
 | Document Window Resolution | 671 | REAL (read-only) | [VS:GetPrefReal](#) |
-| Show Internal Origin Marker | 6723 | TRUE or FALSE | [VS:GetPref](#) |
-| Always Show Current Tool On FDB | 9999 | TRUE or FALSE | [VS:GetPref](#) |
+| Show Internal Origin Marker | 6723 | TRUE or FALSE | [GetPref](GetPref.md)  |
+| Always Show Current Tool On FDB | 9999 | TRUE or FALSE | [GetPref](GetPref.md)  |
 
 ### Notes:
 #### Symbol Tool Insert Mode:
