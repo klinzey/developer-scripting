@@ -4,7 +4,7 @@
 
 | Preference | Selector | Preference Value | Function |
 |------------|----------|------------------|----------|
-| Click-Drag Mode | 0 | TRUE or FALSE | [GetPref](GetPref.md) |
+| Click-Drag Mode | 0 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
 | Offset Duplicates | 1 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Full Screen Cursor | 2 | TRUE or FALSE | [GetPref](GetPref.md)  |
 | Show Screen Hints | 3 | TRUE or FALSE | [GetPref](GetPref.md)  |
