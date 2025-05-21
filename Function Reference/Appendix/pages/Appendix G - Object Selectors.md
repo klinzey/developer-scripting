@@ -20,13 +20,13 @@
 | Display Ending Witness Line | 8 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Leader Text (Primary) | 9 | 31 character STRING value | [VS:GetObjectVariableString] |
 | Trailer Text (Primary) | 10 | 31 character STRING value | [VS:GetObjectVariableString] |
-| Dimension Tolerancing | 11 | 0 (no tolerance) | [VS:GetObjectVariableInt] |
+| Dimension Tolerancing | 11 | 0 (no tolerance) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 (single tolerance) | " |
 | | | 2 (double tolerance) | " |
 | | | 3 (limit tolerance) | " |
 | Dimension Text Offset | 15 | REAL | [VS:GetObjectVariableReal] |
 | Dimension Text Font Size | 17 | REAL | [VS:GetObjectVariableReal] |
-| Dimension Text Font Style | 19 | 0 (Plain) | [VS:GetObjectVariableInt] |
+| Dimension Text Font Style | 19 | 0 (Plain) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 (Bold) | " |
 | | | 2 (Italic) | " |
 | | | 4 (Underline) | " |
@@ -42,14 +42,14 @@
 | Show Secondary Dimension Text | 23 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Leader Text (Secondary) | 24 | 31 character STRING value | [VS:GetObjectVariableString] |
 | Trailer Text (Secondary) | 25 | 31 character STRING value | [VS:GetObjectVariableString] |
-| Dimension Type | 26 | 0 (Constrained) | [VS:GetObjectVariableInt] |
+| Dimension Type | 26 | 0 (Constrained) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 (Unconstrained) | " |
 | | | 2 (Ordinate) | " |
 | | | 3 (Radial) | " |
 | | | 4 (Diameter) | " |
 | | | 5 (Angular) | " |
 | Dimension Standard Name | 27 | STRING value | [VS:GetObjectVariableString] |
-| Dimension Font ID | 28 | Font ID | [VS:GetObjectVariableInt] |
+| Dimension Font ID | 28 | Font ID | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Calculate Dim Text Position | 29 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Force Dim Text Inside | 30 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Angle is Reference | 31 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
@@ -62,7 +62,7 @@
 | Use Tolerance Strings | 38 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Flip Text | 39 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Dimension Text Font Size | 40 | in points | [VS:GetObjectVariableReal] |
-| Dimension Text Rotation | 41 | 0 = Aligned, 1 = Horizontal, 2 = Horiz/Vertical | [VS:GetObjectVariableInt] |
+| Dimension Text Rotation | 41 | 0 = Aligned, 1 = Horizontal, 2 = Horiz/Vertical | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Dim Text Offset Above Line | 43 | REAL (current units) | [VS:GetObjectVariableReal] |
 | Dim Text Offset | 44 | REAL value | [VS:GetObjectVariableReal] |
 | Dimension Offset | 45 | REAL (current units) | [VS:GetObjectVariableReal] |
@@ -70,10 +70,10 @@
 | Elevation Dimension Value (SIA Only) | 47 | REAL value | [VS:GetObjectVariableReal] |
 | Leader Text for Elevation Dimension (SIA Only) | 48 | 31 character STRING value | [VS:GetObjectVariableString] |
 | Trailer Text for Elevation Dimension (SIA Only) | 49 | 31 character STRING value | [VS:GetObjectVariableString] |
-| Leader Arrow Width | 50 | INTEGER value | [VS:GetObjectVariableInt] |
+| Leader Arrow Width | 50 | INTEGER value | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Text Style | 51 | Text Style Index | [VS:GetObjectVariableLongInt] |
 | Text Position | 52 | LONGINT value | [VS:GetObjectVariableLongInt] |
-| Witness Override Settings | 1235 | 0 = Standard | [VS:GetObjectVariableInt] |
+| Witness Override Settings | 1235 | 0 = Standard | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 = Single Custom Length | |
 | | | 2 = Multiple Custom Length | |
 | | | 3 = Single Custom Offset | |
@@ -84,14 +84,14 @@
 | Witness Line offset for Ending Witness Line | 1239 | REAL value | [VS:GetObjectVariableReal] |
 | Leader Line Visibility | 1240 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Leader Line Marker Type | 1241 | Marker Type | [VS:GetObjectVariableLongInt] |
-| Leader Line Marker Size | 1242 | INTEGER | [VS:GetObjectVariableInt] |
-| Leader Line Marker Angle | 1243 | INTEGER | [VS:GetObjectVariableInt] |
-| Leader Line Marker Thickness Basis | 1244 | INTEGER | [VS:GetObjectVariableInt] |
-| Leader Line Marker Thickness | 1245 | INTEGER | [VS:GetObjectVariableInt] |
-| Leader Line Marker Visibility | 1246 | -1 = Undefined Visibility | [VS:GetObjectVariableInt] |
+| Leader Line Marker Size | 1242 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Leader Line Marker Angle | 1243 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Leader Line Marker Thickness Basis | 1244 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Leader Line Marker Thickness | 1245 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Leader Line Marker Visibility | 1246 | -1 = Undefined Visibility | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 0 = Invisible | |
 | | | 1 = Visible | |
-| The width of the marker for the leader line | 1247 | INTEGER | [VS:GetObjectVariableInt] |
+| The width of the marker for the leader line | 1247 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Dimension Text Style | 1248 | LONGINT | [VS:GetObjectVariableLongInt] |
 | Use SIA Custom Elevation Dimension | 1249 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Use Compact mode for Radial Dimensions | 1250 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
@@ -103,7 +103,7 @@
 | Is Design Layer Section Viewport | 1043 | TRUE or FALSE (read only) | [VS:GetObjectVariableBoolean] |
 | Display Flattened Viewport in Wireframe (OBSOLETE) | 1044 | TRUE or FALSE (read only) | [VS:GetObjectVariableBoolean] |
 | The viewport page symbol scale | 1045 | REAL | [VS:GetObjectVariableReal] |
-| Viewport Detail Level low detail = 0, medium detail = 1, high detail = 2 | 1047 | INTEGER | [VS:GetObjectVariableInt] |
+| Viewport Detail Level low detail = 0, medium detail = 1, high detail = 2 | 1047 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Viewport Is Horizontal Section | 1048 | Read Only | [VS:GetObjectVariableBoolean] |
 | Viewport Is Section Viewport | 1054 | Read Only | [VS:GetObjectVariableBoolean] |
 
@@ -114,15 +114,15 @@
 | Light On | 50 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Brightness | 51 | REAL (percentage) | [VS:GetObjectVariableReal] |
 | Shadow Casting On | 53 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
-| Light Type | 55 | 1 (Directional) | [VS:GetObjectVariableInt] |
+| Light Type | 55 | 1 (Directional) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 2 (Point) | " |
 | | | 3 (Spotlight) | " |
 | Light Pan Angle | 57 | REAL value | [VS:GetObjectVariableReal] |
 | Light Tilt Angle | 58 | REAL value | [VS:GetObjectVariableReal] |
-| Distance Falloff Type | 59 | 0 (None) | [VS:GetObjectVariableInt] |
+| Distance Falloff Type | 59 | 0 (None) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 (Smooth) | " |
 | | | 2 (Sharp) | " |
-| Angular Falloff Type | 60 | 0 (none) | [VS:GetObjectVariableInt] |
+| Angular Falloff Type | 60 | 0 (none) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 (Normal) | " |
 | | | 2 (Smooth) | " |
 | | | 3 (Sharp) | " |
@@ -132,7 +132,7 @@
 | Use Soft Shadows | 64 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Use Emitter | 1620 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Emitter Brightness | 1621 | REAL | [VS:GetObjectVariableReal] |
-| Emitter Brightness Units | 1622 | INTEGER | [VS:GetObjectVariableInt] |
+| Emitter Brightness Units | 1622 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 0 (Lumens) | |
 | | | 1 (Candelas) | |
 | | | 2 (Lux) | |
@@ -152,16 +152,16 @@
 | Object Setting | Selector | Setting Value | Function |
 |----------------|----------|---------------|----------|
 | Symbol Light Multiplier | 100 | REAL value | [VS:GetObjectVariableReal] |
-| Symbol Scale Type | 101 | 1 (None) | [VS:GetObjectVariableInt] |
+| Symbol Scale Type | 101 | 1 (None) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 (None) | " |
 | | | 2 (Symmetric) | " |
 | | | 3 (Asymmetric) | " |
 | Symbol X Scale Factor | 102 | REAL value | [VS:GetObjectVariableReal] |
 | Symbol Y Scale Factor | 103 | REAL value | [VS:GetObjectVariableReal] |
 | Symbol Z Scale Factor | 104 | REAL value | [VS:GetObjectVariableReal] |
-| Symbol Insert Mode | 125 | 0 (On center of wall) | [VS:GetObjectVariableInt] |
+| Symbol Insert Mode | 125 | 0 (On center of wall) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 (On edge of wall) | " |
-| Symbol Break Mode | 126 | 1 (Full break) | [VS:GetObjectVariableInt] |
+| Symbol Break Mode | 126 | 1 (Full break) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 2 (Full break no caps) | " |
 | | | 3 (Half break) | " |
 | | | 4 (no break) | " |
@@ -175,12 +175,12 @@
 
 | Object Setting | Selector | Setting Value | Function |
 |----------------|----------|---------------|----------|
-| Slab Type | 172 | 1 (Roof) | [VS:GetObjectVariableInt] |
+| Slab Type | 172 | 1 (Roof) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 2 (Floor) | " |
 | | | 3 (Column) | " |
 | Slab Thickness | 173 | REAL (current units) | [VS:GetObjectVariableReal] |
 | Slab Height | 174 | REAL (current units) (1) | [VS:GetObjectVariableReal] |
-| Roof Edge Miter Type | 180 | 1 (Vertical) | [VS:GetObjectVariableInt] |
+| Roof Edge Miter Type | 180 | 1 (Vertical) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 2 (Horizontal) | " |
 | | | 3 (Compound) | " |
 | Double Miter Ratio Value | 181 | REAL value (3) | [VS:GetObjectVariableReal] |
@@ -198,11 +198,11 @@
 |----------------|----------|---------------|----------|
 | Layer Ambient Status | 150 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Layer Ambient Brightness | 151 | REAL value | [VS:GetObjectVariableReal] |
-| Layer Visibility | 153 | -1 (Invisible) | [VS:GetObjectVariableInt] |
+| Layer Visibility | 153 | -1 (Invisible) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 0 (Normal) | " |
 | | | 2 (Grayed) | " |
-| Layer Type | 154 | INTEGER | [VS:GetObjectVariableInt] |
-| Layer Printing DPI | 155 | INTEGER | [VS:GetObjectVariableInt] |
+| Layer Type | 154 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Layer Printing DPI | 155 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Layer Renderworks Background | 591 | LONGINT | [VS:GetObjectVariableLongInt] |
 | Layer Repaginate | 156 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Layer Height | 157 | REAL (current units) | [VS:GetObjectVariableReal] |
@@ -222,14 +222,14 @@
 
 | Object Setting | Selector | Setting Value | Function |
 |----------------|----------|---------------|----------|
-| Projection Type | 1000 | INTEGER | [VS:GetObjectVariableInt] |
-| Render Type | 1001 | INTEGER | [VS:GetObjectVariableInt] |
+| Projection Type | 1000 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Render Type | 1001 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Perspective Distance | 1002 | REAL | [VS:GetObjectVariableReal] |
 | Scale | 1003 | REAL | [VS:GetObjectVariableReal] |
 | Needs Update | 1004 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Project 2D | 1005 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Render Background | 1006 | LONGINT | [VS:GetObjectVariableLongInt] |
-| View Type | 1007 | INTEGER | [VS:GetObjectVariableInt] |
+| View Type | 1007 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Line Weight Scale | 1008 | REAL | [VS:GetObjectVariableReal] |
 | Arrowhead Scale | 1009 | REAL | [VS:GetObjectVariableReal] |
 | Dashed Line Scale | 1010 | REAL | [VS:GetObjectVariableReal] |
@@ -255,7 +255,7 @@
 | Viewport Locator | 1033 | STRING value | [VS:GetObjectVariableString] |
 | Viewport Is Linked | 1032 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Viewport Display Planar | 1035 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
-| Viewport Foreground Render Type | 1036 | INTEGER | [VS:GetObjectVariableInt] |
+| Viewport Foreground Render Type | 1036 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 
 **Notes:**
 1. View Type values are different then SetView
@@ -281,11 +281,11 @@
 
 | Object Setting | Selector | Setting Value | Function |
 |----------------|----------|---------------|----------|
-| Number of Cavities | 199 | INTEGER value (1) | [VS:GetObjectVariableInt] |
+| Number of Cavities | 199 | INTEGER value (1) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Cavity is Pair | 240 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Cavity Fill Pattern | 260 | LONGINT index (0-71) (2) | [VS:GetObjectVariableLongInt] |
-| Cavity Pen Weight | 280 | INTEGER value (mils) (2) | [VS:GetObjectVariableInt] |
-| Cavity Pen Style | 300 | INTEGER index (2) | [VS:GetObjectVariableInt] |
+| Cavity Pen Weight | 280 | INTEGER value (mils) (2) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Cavity Pen Style | 300 | INTEGER index (2) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Cavity Left Offset | 320 | REAL (2) | [VS:GetObjectVariableReal] |
 | Cavity Right Offset | 340 | REAL (2) | [VS:GetObjectVariableReal] |
 | Hide Cavity Detail | 701 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
@@ -311,21 +311,21 @@
 |----------------|----------|---------------|----------|
 | Thickness | 1177 | REAL (1) | [VS:GetObjectVariableReal] |
 | Fill | 1178 | LONGINT Pattern (0 to 71) or negative resource fill ref number | [VS:GetObjectVariableLongInt] |
-| Pen Style | 1179 | INTEGER Pattern (0 to 71) or dash (-1 to -10) | [VS:GetObjectVariableInt] |
-| Pen Weight | 1180 | INTEGER | [VS:GetObjectVariableInt] |
-| Fill Foreground Color | 1181 | INTEGER Color index (0 to 255) | [VS:GetObjectVariableInt] |
-| Fill Background Color | 1182 | INTEGER Color index (0 to 255) | [VS:GetObjectVariableInt] |
-| Pen Foreground Color | 1183 | INTEGER Color index (0 to 255) | [VS:GetObjectVariableInt] |
-| Pen Background Color | 1184 | INTEGER Color index (0 to 255) | [VS:GetObjectVariableInt] |
-| Opacity | 1185 | INTEGER Percent (0 to 100) | [VS:GetObjectVariableInt] |
+| Pen Style | 1179 | INTEGER Pattern (0 to 71) or dash (-1 to -10) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Pen Weight | 1180 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Fill Foreground Color | 1181 | INTEGER Color index (0 to 255) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Fill Background Color | 1182 | INTEGER Color index (0 to 255) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Pen Foreground Color | 1183 | INTEGER Color index (0 to 255) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Pen Background Color | 1184 | INTEGER Color index (0 to 255) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Opacity | 1185 | INTEGER Percent (0 to 100) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Use Fill Class Attributes | 1186 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Use Pen Class Attributes | 1187 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Use Class Opacity | 1188 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
-| Cap Attributes Type | 1189 | INTEGER (0 = Wall line, 1 = Component lines) (2) | [VS:GetObjectVariableInt] |
-| Caps | 1194 | INTEGER (0 = None, 1 = Start, 2 = End, 3 = Both) (2) | [VS:GetObjectVariableInt] |
+| Cap Attributes Type | 1189 | INTEGER (0 = Wall line, 1 = Component lines) (2) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Caps | 1194 | INTEGER (0 = None, 1 = Start, 2 = End, 3 = Both) (2) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Class | 1195 | LONGINT Ref number | [VS:GetObjectVariableLongInt] |
 | Control Offset | 1196 | REAL (2) | [VS:GetObjectVariableReal] |
-| Texture Set | 1197 | INTEGER (0 = Object textures, 1 = Component textures) | [VS:GetObjectVariableInt] |
+| Texture Set | 1197 | INTEGER (0 = Object textures, 1 = Component textures) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Overall Texture | 1198 | LONGINT Ref number | [VS:GetObjectVariableLongInt] |
 | Left Texture | 1199 | LONGINT Ref number (2) | [VS:GetObjectVariableLongInt] |
 | Right Texture | 1200 | LONGINT Ref number (2) | [VS:GetObjectVariableLongInt] |
@@ -363,7 +363,7 @@
 |----------------|----------|---------------|----------|
 | Is Volumetric | 1569 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Category | 1570 | STRING | [VS:GetObjectVariableString] |
-| Standard | 1571 | INTEGER | [VS:GetObjectVariableInt] |
+| Standard | 1571 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 0 (Omni Class) | |
 | | | 1 (Uni Class) | |
 | | | 2 (None) | |
@@ -415,15 +415,15 @@
 
 | Object Setting | Selector | Setting Value | Function |
 |----------------|----------|---------------|----------|
-| Insertion Mode | 123 | 0 (On center of wall) | [VS:GetObjectVariableInt] |
+| Insertion Mode | 123 | 0 (On center of wall) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 (On edge of wall) | " |
-| Break Mode | 124 | 1 (Full break) | [VS:GetObjectVariableInt] |
+| Break Mode | 124 | 1 (Full break) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 2 (Full break no caps) | " |
 | | | 3 (Half break) | " |
 | | | 4 (no break) | " |
 | Font Style Enabled | 800 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | CreateCustomObject Don't Insert in Wall | 6709 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
-| Parametric Internal ID | 1165 | INTEGER (read-only) | [VS:GetObjectVariableInt] |
+| Parametric Internal ID | 1165 | INTEGER (read-only) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Parametric Localized Name | 1166 | STRING (read-only) | [VS:GetObjectVariableString] |
 | Immediate Reset | 1167 | Write Only (Use on SDK parametric objects only!) | [VS:GetObjectVariableBoolean] |
 | Hide Style Parameter check | 1168 | Read Only | [VS:GetObjectVariableBoolean] |
@@ -445,8 +445,8 @@
 | Show Gridlines | 83 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Show Tabs | 84 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Auto-Recalculate | 85 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
-| Default Font Index | 86 | INTEGER value | [VS:GetObjectVariableInt] |
-| Default Font Size | 87 | INTEGER value | [VS:GetObjectVariableInt] |
+| Default Font Index | 86 | INTEGER value | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Default Font Size | 87 | INTEGER value | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Top Print Margin | 88 | REAL value | [VS:GetObjectVariableReal] |
 | Left Print Margin | 89 | REAL value | [VS:GetObjectVariableReal] |
 | Bottom Print Margin | 90 | REAL value | [VS:GetObjectVariableReal] |
@@ -462,9 +462,9 @@
 | Texture Bitmap Horiz Repeat | 524 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Texture Bitmap Vertical Repeat | 525 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Texture Bitmap Feature Size | 527 | REAL (current units) | [VS:GetObjectVariableReal] |
-| Paint Width | 530 | LONGINT (pixels) | [VS:GetObjectVariableInt] |
-| Paint Height | 531 | LONGINT (pixels) | [VS:GetObjectVariableInt] |
-| Texture Space Type | 540 | 0 (Plane) | [VS:GetObjectVariableInt] |
+| Paint Width | 530 | LONGINT (pixels) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Paint Height | 531 | LONGINT (pixels) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Texture Space Type | 540 | 0 (Plane) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 1 (Sphere) | " |
 | | | 2 (Cylinder) | " |
 | | | 3 (Algorithmic/Perimeter) | " |
@@ -473,7 +473,7 @@
 | Texture Space Rotation | 544 | REAL value (in radians) | [VS:GetObjectVariableReal] |
 | Texture Space Use Start Cap | 546 | TRUE or FALSE (3) | [VS:GetObjectVariableBoolean] |
 | Texture Space Use End Cap | 547 | TRUE or FALSE (3) | [VS:GetObjectVariableBoolean] |
-| Texture Space Part ID | 548 | INTEGER index (4) | [VS:GetObjectVariableInt] |
+| Texture Space Part ID | 548 | INTEGER index (4) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Texture Space Radius | 549 | REAL (current units) (2) | [VS:GetObjectVariableReal] |
 | Same Texture as Parent Wall | 704 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 
@@ -508,7 +508,7 @@
 
 | Object Setting | Selector | Data Type | Function |
 |----------------|----------|-----------|----------|
-| Number of Levels | 660 | INTEGER | [VS:GetObjectVariableInt] |
+| Number of Levels | 660 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Is Transparent | 661 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Has Page Units | 662 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Rotate In Wall | 663 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
@@ -524,7 +524,7 @@ Selectors are here: [VS:Working_with_Materials](VS:Working_with_Materials#Materi
 |----------------|----------|-----------|----------|
 | Is 2D Poly Clockwise | 652 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Object Fill Style | 695 | LONGINT | [VS:GetObjectVariableLongInt] |
-| Object Fill Type | 696 | INTEGER | [VS:GetObjectVariableInt] |
+| Object Fill Type | 696 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Object Use Local Mapping | 697 | BOOLEAN | [VS:GetObjectVariableBoolean] |
 | Object is Locked | 700 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | Object is visible in high detail level | 750 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
@@ -551,11 +551,11 @@ Selectors are here: [VS:Working_with_Materials](VS:Working_with_Materials#Materi
 | | | 1 (JPEG) | " |
 | | | 2 (PNG) | " |
 | | | 3 (PNG Monochrome) | " |
-| Set Specified Design Layer Visibility in All Saved Views | 454 | -1 (Invisible) | [VS:GetObjectVariableInt] |
+| Set Specified Design Layer Visibility in All Saved Views | 454 | -1 (Invisible) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 0 (Normal) | " |
 | | | 2 (Grayed) | " |
 | | | 3 (Don't Save) | " |
-| Set Specified Class Visibility in All Saved Views | 455 | -1 (Invisible) | [VS:GetObjectVariableInt] |
+| Set Specified Class Visibility in All Saved Views | 455 | -1 (Invisible) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 0 (Normal) | " |
 | | | 2 (Grayed) | " |
 | | | 3 (Don't Save) | " |
@@ -566,9 +566,9 @@ Selectors are here: [VS:Working_with_Materials](VS:Working_with_Materials#Materi
 | Sketch Style | 1100 | -2 No Sketch | [VS:GetObjectVariableLongInt] |
 | | | 0 Default | |
 | | | Index of Sketch Style | |
-| Set Specified Design Layer Visibility In All Viewports | 1017 | INTEGER | [VS:GetObjectVariableInt] |
-| Set Specified Class Visibility In All Viewports | 1018 | INTEGER | [VS:GetObjectVariableInt] |
-| Projection Type | 1110 | 0 (Lambert Conic) 1 (UTM) | [VS:GetObjectVariableInt] |
+| Set Specified Design Layer Visibility In All Viewports | 1017 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Set Specified Class Visibility In All Viewports | 1018 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Projection Type | 1110 | 0 (Lambert Conic) 1 (UTM) | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | Lat./Long. vs XY Flag | 1111 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | First Import Flag | 1112 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
 | New Layer/Class Flag | 1113 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
@@ -576,8 +576,8 @@ Selectors are here: [VS:Working_with_Materials](VS:Working_with_Materials#Materi
 | Georeference Point | 1115 | REAL | [VS:GetObjectVariableReal] |
 | Georeference Offset | 1116 | REAL | [VS:GetObjectVariableReal] |
 | Layer of First Import To Class | 1117 | LONGINT | [VS:GetObjectVariableLongInt] |
-| Thumbnail View | 1152 | INTEGER | [VS:GetObjectVariableInt] |
-| Thumbnail Render | 1153 | INTEGER | [VS:GetObjectVariableInt] |
+| Thumbnail View | 1152 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Thumbnail Render | 1153 | INTEGER | GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | RenderWorks Background Width | 1154 | REAL (current units) | [VS:GetObjectVariableReal] |
 | RenderWorks Background Height | 1155 | REAL (current units) | [VS:GetObjectVariableReal] |
 | Planar Object Is Screen Object | 1160 | TRUE or FALSE | [VS:GetObjectVariableBoolean] |
