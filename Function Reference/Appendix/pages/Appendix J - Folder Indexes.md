@@ -75,14 +75,14 @@
 | Default Spaces Name Lists Folder | 141 |
 | Default Structural Shapes Folder | 142 |
 | Default Landmark Schedules Folder | 143 |
-| Default Video Screen Folder | 144 |
+| Default Screen Folder | 144 |
 | Default Video Screen Casings CRT 4-3 Folder | 145 |
 | Default Video Screen Casings CRT 16-9 Folder | 146 |
 | Default Video Screen Casings Flat 4-3 Folder | 147 |
 | Default Video Screen  Casings Flat 16-9 Folder | 148 |
 | Default Video Screen Casings CRT Curved 4-3 Folder | 149 |
 | Default Video Screen Images Folder | 150 |
-| Default Video Screen Projector Models Folder | 151 |
+| Default Video Screen Projector Folder | 151 |
 | Default Video Screen Stand Models Folder | 152 |
 | Default Event Planning Folder | 154 |
 | Default Event Planning Room Folder | 155 |
@@ -106,8 +106,8 @@
 | Default Detail Markers Folder | 173 |
 | Default Line Types Folder | 174 |
 | Default Audio Tools Folder | 175 |
-| Audio Bumpers Folder | 176 |
-| Audio Speakers Folder | 177 |
+| Entertainment Audio Bumpers Folder | 176 |
+| Entertainment Audio Speakers Folder | 177 |
 | Extras Folder | 178 |
 | Samples Folder | 179 |
 | Default Parking Space Folder | 180 |
@@ -115,9 +115,9 @@
 | Default Workspaces Folder | 182 |
 | Default Notes Folder | 183 |
 | Default Energy Analysis Folder | 187 |
-| Hoist Tools Folder | 188 |
-| Accessory Symbols Folder | 189 |
-| Entertainment Lighting Folder | 190 |
+| Entertainment Rigging Hoist Folder | 188 |
+| Entertainment Lighintg Accessory Folder | 189 |
+| Entertainment Lighting Instruments Folder Folder | 190 |
 | Default Marionette Folder | 191 |
 | Default Marionette Attributes Folder | 192 |
 | Default Marionette Math Folder | 193 |
@@ -216,11 +216,11 @@
 | Object Styles DataTag Folder | 310 |
 | Defaults Dead Hang Folder | 311 |
 | Defaults House Rigging Points Folder | 312 |
-| Defaults Bridle Materials Folder, | 313 |
-| Default Camera Symbols Folder | 314 |
-| Default Camera Lens Symbols Folder | 315 |
-| Default Camera Body Symbols Folder | 316 |
-| Default Camera Stand Symbols Folder | 317 |
+| Entertainmnet	Rigging Bridle Materials Folder, | 313 |
+| Entertainment Video Camera Folder | 314 |
+| Entertainment Video Camera Lenses Folder | 315 |
+|Entertainment Video Camera Bodies Folder | 316 |
+| Entertainment Video Camera Stands Folder | 317 |
 | Default Color Schemes Folder | 318 |
 | Object Styles Seating Section Folder | 319 |
 | Spotlight Data GDTF Folder | 320 |
@@ -261,7 +261,7 @@
 | Default ConnectCAD Adaptor Folder | 358 |
 | Object Styles Elevation Benchmark Folder | 359 |
 | Object Styles Data Tag Space Folder | 360 |
-| Default Truss Cross Folder | 361 |
+| Entertainment Rigging Rigging Connections Folder | 361 |
 | Object Styles Structural Member Folder | 362 |
 | Annotations Folder | 363 |
 | Attributes Folder | 364 |
@@ -271,11 +271,11 @@
 | MEP Folder | 368 |
 | Site Folder | 369 |
 | Visualization Folder | 370 |
-| Audio Controls Folder | 377 |
-| Lighting Controls Folder | 378 |
-| SFXEffects Folder | 379 |
-| Video Controls Folder | 380 |
-| Video Equip Folder | 381 |
+| Entertainment Audio Controls Folder | 377 |
+| Entertainment Lighting Controls Folder | 378 |
+| Entertainment Special Effects Folder | 379 |
+| Entertainment Video Controls Folder | 380 |
+| Entertainment Video Equiptment Folder | 381 |
 | Cabinet Styles Folder | 382 |
 | Space Styles Folder | 384 |
 | Furniture Concept Folder | 385 |
@@ -291,7 +291,7 @@
 | Slab Styles Folder | 395 |
 | ConnectCAD Equipment Item Folder | 396 |
 | Laser Folder | 397 |
-| SFX Folder | 389 |
+| Entertainment Special Effects Folder | 389 |
 | Plant Libraries Folder | 399 |
 | Default Distributors Folder | 400 |
 | Entertainment Power Folder | 401 |
@@ -316,7 +316,7 @@
 | Default Fence Rail Capping Profiles Folder | 420 |
 | Default Fence Rail Profiles Folder | 421 |
 | Default Fence Infill 3D Horizontal Folder | 422 |
-| Default Hoist Tool Pickups Folder | 423 |
+| Entertainment Rigging Truss Pickups Folder | 423 |
 | Object Styles ConnectCAD Panel Layout Folder | 424 |
 | Object Styles Cabinet Folder (LEGACY) Folder | 426 |
 | Curb (styles) Folder | 427 |
@@ -347,9 +347,9 @@
 | Entertainmnet	Rigging	Hardware_Other Folder | 452 |
 | Default Sustainability Folder	| 453 |
 | Entertainmnet Video LED Accessories Folder | 454 |
-| ExistingTree2D Canopy Folder	| 455 |
-| ExistingTree3D Canopy Folder | 456 |
-| ExistingTree2D Trunk Folder	| 457 |
+| ExistingTree 2D Canopy Folder	| 455 |
+| ExistingTree 3D Canopy Folder | 456 |
+| ExistingTree 2D Trunk Folder	| 457 |
 | Stake DataTag Style Folder | 458 |
 | Entertainmnet Lighting Folder	| 459 |
 | Entertainmnet Audio Folder	| 460 |
