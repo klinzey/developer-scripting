@@ -4,7 +4,7 @@
 
 | Object Setting | Selector | Setting Value | Function Type |
 |----------------|----------|---------------|---------------|
-| Dimension Standard | 0 | 1 (Arch) | [[GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
+| Dimension Standard | 0 | 1 (Arch) | [GetObjectVariableInt](../../Functions/GetObjectVariableInt.md) |
 | | | 2 (ASME) | " |
 | | | 3 (BSI) | " |
 | | | 4 (DIN) | " |
