@@ -560,7 +560,7 @@ Selectors are here: [VS:Working_with_Materials](VS:Working_with_Materials#Materi
 | | | 2 (Grayed) | " |
 | | | 3 (Don't Save) | " |
 | Mark Object as Structural | 702 | TRUE or FALSE | [GetObjectVariableBoolean](../../Functions/GetObjectVariableBoolean.md) |
-| First Aux List Object | 703 | HANDLE | [VS:GetObjectVariableHandle] |
+| First Aux List Object | 703 | HANDLE | [GetObjectVariableHandle](../../Functions/GetObjectVariableHandle.md) |
 | Custom Object Area | 801 | REAL (current units) | [GetObjectVariableReal](../../Functions/GetObjectVariableReal.md) |
 | Custom Object Perimeter | 802 | REAL (current units) | |
 | Sketch Style | 1100 | -2 No Sketch | [GetObjectVariableLongInt](../../Functions/GetObjectVariableLongInt.md) |
