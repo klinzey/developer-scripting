@@ -242,8 +242,8 @@
 | Parametric Enable State Eventing | 590 | 0 (NoStateEvents) | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | | | 1 (ResetStatesEvent) | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | | | 2 (InternalStatesEvent) | [GetPrefInt](../../Functions/GetPrefInt.md) |
-| Parametric Regen Paused Plan Rotation | 591 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
-| Parametric Regen Paused Plan Rotation Angle | 592 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
+| Parametric Regen Paused Plan Rotation | 591 | TRUE or FALSE  (read-only)| [GetPref](../../Functions/GetPref.md)  |
+| Parametric Regen Paused Plan Rotation Angle | 592 | TRUE or FALSE  (read-only)| [GetPref](../../Functions/GetPref.md)  |
 
 ### Smart Cursor / Appearance Preference Selectors
 
