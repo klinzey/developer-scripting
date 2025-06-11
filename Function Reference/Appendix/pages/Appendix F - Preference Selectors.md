@@ -517,7 +517,6 @@
 | Show ODM Search Filters | 7000 | True or False | [GetPref](../../Functions/GetPref.md)  |
 | Show Items Not In Workspace | 7001 | True or False | [GetPref](../../Functions/GetPref.md)  |
 | Show ODM Command Context | 7002 | True or False | [GetPref](../../Functions/GetPref.md)  |
-
 | Activate Tool Set On Tool Selection | 7003 | True or False | [GetPref](../../Functions/GetPref.md)  
 
 ## Primary Units Selectors
