@@ -227,6 +227,15 @@
 | Smart Cursor Lock Special X | 6812 | REAL | [GetPrefReal](../../Functions/GetPrefReal.md) |
 | Smart Cursor Lock Special Y | 6813 | REAL | [GetPrefReal](../../Functions/GetPrefReal.md) |
 | Use OpenGL Background Context | 6816 | Boolean | [GetPref](../../Functions/GetPref.md)  |
+| OpenGL AntiAliasing Supported | 593 | Boolean | [[VS:GetPref]] |
+| OpenGL Draw Edges Supported | 594 | Boolean | [[VS:GetPref]] |
+| OpenGL Use Shadows Supported | 595 | Boolean | [[VS:GetPref]] |
+| Block Until Done Rendering | 596 | Boolean (write only) | [[VS:GetPref]] |
+| Allow Drop Shadows | 597 | Boolean | [[VS:GetPref]] |
+| OpenGL Environment Lighting Capability | 598 | Boolean | [[VS:GetPref]] |
+| OpenGL Environment Reflection Capability | 599 | Boolean | [[VS:GetPref]] |
+| OpenGL Screen Space Reflection Capability | 601 | Boolean | [[VS:GetPref]] |
+| Dark Sym Previews | 602 | Boolean | [[VS:GetPref]] |
 | Use Duplicates For Raster VPs | 6817 | Boolean | [GetPref](../../Functions/GetPref.md)  |
 | Default Render Mode Render Mode | 1318 | INTEGER | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | Default Render Mode Projection Mode | 1319 | INTEGER | [GetPrefInt](../../Functions/GetPrefInt.md) |
@@ -449,6 +458,12 @@
 | Ruler Marks and Text | + 1500 | | |
 | Floating Databar Background | + 1530 | | |
 | Floating Databar Outline and Text | + 1560 | |
+| General Object Previews | + 1590 | |
+| General Unhide Objects Button | + 1620 | |
+| Onscreen View Control Text And Accents | + 1650 | |
+| Onscreen View Control Cube | + 1680 | |
+| Onscreen View Control Working Plane Cube Face | + 1710 | |
+| General Active View Pane Label | + 1740 | |
 | Property Available | + 0 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Different Background Color | + 1 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Pattern | + 2 | INTEGER | [GetPrefInt](../../Functions/GetPrefInt.md) |
@@ -795,6 +810,14 @@
 | Document Window Resolution | 671 | REAL (read-only) | [GetPrefReal](../../Functions/GetPrefReal.md) |
 | Show Internal Origin Marker | 6723 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Always Show Current Tool On FDB | 9999 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
+| Display Hidden Objects Ghosted | 604 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Low Detail Exist Comp Objs | 605 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Low Detail Exist SymsPios | 606 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Low Detail Removed Comp Objs | 607 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)) |
+| Low Detail Removed SymsPios | 608 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Alt Attrib Removed Objs | 609 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| CurrentLayerScale | 6757 | Real (read-only) | [GetPrefReal](../../Functions/GetPrefReal.md)) |
+| Save VGM Cache | 6840 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
 
 ### Notes:
 #### Symbol Tool Insert Mode:
