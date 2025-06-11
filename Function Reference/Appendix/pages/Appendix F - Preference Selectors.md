@@ -213,10 +213,12 @@
 | Controls the state in which windowshaded palettes automaticaly unshade based on mouse proximity | 6775 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Controls the state in which docked palettes automaticaly hides based on mouse proximity | 6776 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Worksheet parameter delimiter | 6798 | String | [GetPrefString](../../Functions/GetPrefString.md) |
+| Worksheet Column Crop Marker Display Always| 7020 | String | Boolean | [GetPref](../../Functions/GetPref.md)  
+| Worksheet Menu Display Always | 7021 | String | Boolean | [GetPref](../../Functions/GetPref.md)  
 | Turns screen redraws on/off | 6799 | Boolean | [GetPref](../../Functions/GetPref.md)  |
 | Enable Multiview | 6802 | Boolean | [GetPref](../../Functions/GetPref.md)  |
 | Multiview visibilities | 6803 | Boolean | [GetPref](../../Functions/GetPref.md)  |
-| turns on/off the Duplicate Tags With Objects | 6804 | [GetPref](../../Functions/GetPref.md)  |
+| turns on/off the Duplicate Tags With Objects | 6804 | Boolean | [GetPref](../../Functions/GetPref.md)  |
 | turns on/off the drawing of the ray+octree intersected mesh vrefs | 6806 | Boolean | [GetPref](../../Functions/GetPref.md)  |
 | Enable profile VectorScript execution | 6807 | Boolean | [GetPref](../../Functions/GetPref.md)  |
 | Enable profile VectorScript execution | 6807 | Boolean | [GetPref](../../Functions/GetPref.md)  |
@@ -227,15 +229,15 @@
 | Smart Cursor Lock Special X | 6812 | REAL | [GetPrefReal](../../Functions/GetPrefReal.md) |
 | Smart Cursor Lock Special Y | 6813 | REAL | [GetPrefReal](../../Functions/GetPrefReal.md) |
 | Use OpenGL Background Context | 6816 | Boolean | [GetPref](../../Functions/GetPref.md)  |
-| OpenGL AntiAliasing Supported | 593 | Boolean | [[VS:GetPref]] |
-| OpenGL Draw Edges Supported | 594 | Boolean | [[VS:GetPref]] |
-| OpenGL Use Shadows Supported | 595 | Boolean | [[VS:GetPref]] |
-| Block Until Done Rendering | 596 | Boolean (write only) | [[VS:GetPref]] |
-| Allow Drop Shadows | 597 | Boolean | [[VS:GetPref]] |
-| OpenGL Environment Lighting Capability | 598 | Boolean | [[VS:GetPref]] |
-| OpenGL Environment Reflection Capability | 599 | Boolean | [[VS:GetPref]] |
-| OpenGL Screen Space Reflection Capability | 601 | Boolean | [[VS:GetPref]] |
-| Dark Sym Previews | 602 | Boolean | [[VS:GetPref]] |
+| OpenGL AntiAliasing Supported | 593 | Boolean |  [GetPref](../../Functions/GetPref.md) |
+| OpenGL Draw Edges Supported | 594 | Boolean |  [GetPref](../../Functions/GetPref.md) |
+| OpenGL Use Shadows Supported | 595 | Boolean |  [GetPref](../../Functions/GetPref.md) |
+| Block Until Done Rendering | 596 | Boolean (write only) |  [GetPref](../../Functions/GetPref.md) |
+| Allow Drop Shadows | 597 | Boolean |  [GetPref](../../Functions/GetPref.md) |
+| OpenGL Environment Lighting Capability | 598 | Boolean |  [GetPref](../../Functions/GetPref.md) |
+| OpenGL Environment Reflection Capability | 599 | Boolean |  [GetPref](../../Functions/GetPref.md) |
+| OpenGL Screen Space Reflection Capability | 601 | Boolean |  [GetPref](../../Functions/GetPref.md) |
+| Dark Sym Previews | 602 | Boolean |  [GetPref](../../Functions/GetPref.md) |
 | Use Duplicates For Raster VPs | 6817 | Boolean | [GetPref](../../Functions/GetPref.md)  |
 | Default Render Mode Render Mode | 1318 | INTEGER | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | Default Render Mode Projection Mode | 1319 | INTEGER | [GetPrefInt](../../Functions/GetPrefInt.md) |
@@ -243,6 +245,7 @@
 | Display Home Screen on Startup | 7009 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Display Home Screen on Closing Last Doc | 7010 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Enable Legacy Eight Lights | 7100 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
+| Enable Emitters | 7102 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Display Non-Printable Indicators | 7301 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Release Version Integer | 570 | SHORT - The release version integer defaults to 0 | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | get/set the insertion mode of the symbol tool | 580 | SHORT | [GetPrefInt](../../Functions/GetPrefInt.md) |
@@ -251,8 +254,7 @@
 | Parametric Enable State Eventing | 590 | 0 (NoStateEvents) | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | | | 1 (ResetStatesEvent) | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | | | 2 (InternalStatesEvent) | [GetPrefInt](../../Functions/GetPrefInt.md) |
-| Parametric Regen Paused Plan Rotation | 591 | TRUE or FALSE  (read-only)| [GetPref](../../Functions/GetPref.md)  |
-| Parametric Regen Paused Plan Rotation Angle | 592 | TRUE or FALSE  (read-only)| [GetPref](../../Functions/GetPref.md)  |
+| Save VGM Cache | 6840 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
 
 ### Smart Cursor / Appearance Preference Selectors
 
@@ -323,6 +325,7 @@
 | Snap to All Extensions from Nearby Smart Points | 1095 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Disable All Snaps | 1096 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Show Working Plane Axes in Plan View | 1098 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
+| Display Tool Help On Status Bar | 7014 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 
 ### Interactive Smart Cursor Dialog Preference Selectors
 
@@ -504,15 +507,18 @@
 | | | 3 (Recent Tools) | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | | | 4 (Standard Views) | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | | | 5 (Tool Sets) | [GetPrefInt](../../Functions/GetPrefInt.md) |
-| | 2 (Quadrant Position) | | |
+| | | 2 (Quadrant Position) | | |
 | | | 0 (Top Left) | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | | | 1 (Top Right) | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | | | 2 (Bottom Left) | [GetPrefInt](../../Functions/GetPrefInt.md) |
 | | | 3 (Bottom Right) | [GetPrefInt](../../Functions/GetPrefInt.md) |
-| | 3 (Tool Set ID) | | |
-| Show ODM Search Filters | 7000 | True or False | [GetPref](../../Functions/GetPref.md)  |
-| Show ODM Command Context | 7001 | True or False | [GetPref](../../Functions/GetPref.md)  |
+| | | 3 (Tool Set ID) | | |
 | | | 4 (Tool Set Name) |
+| Show ODM Search Filters | 7000 | True or False | [GetPref](../../Functions/GetPref.md)  |
+| Show Items Not In Workspace | 7001 | True or False | [GetPref](../../Functions/GetPref.md)  |
+| Show ODM Command Context | 7002 | True or False | [GetPref](../../Functions/GetPref.md)  |
+
+| Activate Tool Set On Tool Selection | 7003 | True or False | [GetPref](../../Functions/GetPref.md)  
 
 ## Primary Units Selectors
 
@@ -813,11 +819,25 @@
 | Display Hidden Objects Ghosted | 604 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
 | Low Detail Exist Comp Objs | 605 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
 | Low Detail Exist SymsPios | 606 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
-| Low Detail Removed Comp Objs | 607 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)) |
+| Low Detail Removed Comp Objs | 607 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
 | Low Detail Removed SymsPios | 608 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
 | Alt Attrib Removed Objs | 609 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
-| CurrentLayerScale | 6757 | Real (read-only) | [GetPrefReal](../../Functions/GetPrefReal.md)) |
-| Save VGM Cache | 6840 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| CurrentLayerScale | 6757 | Real (read-only) | [GetPrefReal](../../Functions/GetPrefReal.md) |
+| Parametric Regen Paused Plan Rotation | 591 | TRUE or FALSE  (read-only)| [GetPref](../../Functions/GetPref.md)  |
+| Parametric Regen Paused Plan Rotation Angle | 592 | TRUE or FALSE  (read-only)| [GetPref](../../Functions/GetPref.md)  |
+| Visibility of newly imported classes in Saved Views | 6841 | Integer| [GetPrefInt](../../Functions/GetPrefINt.md)  |
+||| -1 invisibl||
+|||0 visible||
+||| 2 gray||
+| Visibility of newly imported classes in Viewports | 6842 | Integer| [GetPrefInt](../../Functions/GetPrefInt.md)  |
+||| -1 invisibl||
+|||0 visible||
+||| 2 gray||
+| Visibility of newly imported classes in Graphics Legends | 6843 |Integer| [GetPrefInt](../../Functions/GetPrefInt.md)  |
+||| -1 invisibl||
+|||0 visible||
+||| 2 gray||
+| Use VGM Legacy | 10100 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)
 
 ### Notes:
 #### Symbol Tool Insert Mode:
