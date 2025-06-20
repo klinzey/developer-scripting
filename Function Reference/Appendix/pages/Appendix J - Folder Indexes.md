@@ -216,7 +216,7 @@
 | Object Styles DataTag Folder | 310 |
 | Defaults Dead Hang Folder | 311 |
 | Defaults House Rigging Points Folder | 312 |
-| Entertainmnet	Rigging Bridle Materials Folder, | 313 |
+| Entertainment	Rigging Bridle Materials Folder, | 313 |
 | Entertainment Video Camera Folder | 314 |
 | Entertainment Video Camera Lenses Folder | 315 |
 |Entertainment Video Camera Bodies Folder | 316 |
@@ -339,26 +339,26 @@
 | Curb Corners Folder | 444 |
 | Curb Insertions Folder | 445 |
 | Architect Schedules Folder | 446 |
-| Entertainmnet Video LED Wall Styles Folder | 447 |
-| Entertainmnet Video LED Panels Folder | 448 |
-| Entertainmnet	Rigging Hardware Ground | 449 |
-| Entertainmnet	Rigging	Hardware Hanging Folder | 450 |
-| Entertainmnet	Rigging	Hardware Clamps Folder | 451 |
-| Entertainmnet	Rigging	Hardware Pipe Clamps Folder | 452 |
-| Entertainmnet	Rigging	Hardware Sliding Tees Folder | 453 |
-| Entertainmnet	Rigging	Hardware Pipes Folder | 454 |
-| Entertainmnet	Rigging	Hardware One Piece Sidearms Folder | 455 |
-| Entertainmnet	Rigging	Hardware  Side Arm Pipes Folder | 456 |
+| Entertainment Video LED Wall Styles Folder | 447 |
+| Entertainment Video LED Panels Folder | 448 |
+| Entertainment	Rigging Hardware Ground | 449 |
+| Entertainment	Rigging	Hardware Hanging Folder | 450 |
+| Entertainment	Rigging	Hardware Clamps Folder | 451 |
+| Entertainment	Rigging	Hardware Pipe Clamps Folder | 452 |
+| Entertainment	Rigging	Hardware Sliding Tees Folder | 453 |
+| Entertainment	Rigging	Hardware Pipes Folder | 454 |
+| Entertainment	Rigging	Hardware One Piece Sidearms Folder | 455 |
+| Entertainment	Rigging	Hardware  Side Arm Pipes Folder | 456 |
 | Default Sustainability Folder	| 457 |
 | Entertainment Video LED Accessories Folder| 458 |
 | ExistingTree 2D Canopy Folder	| 459 |
 | ExistingTree 3D Canopy Folder | 460 |
 | ExistingTree 2D Trunk Folder	| 461 |
 | Stake DataTag Style Folder | 462 |
-| Entertainmnet Lighting Folder	| 463 |
-| Entertainmnet Audio Folder	| 464 |
-| Entertainmnet Rigging Folder | 465 |
-| Entertainmnet Video LED Folder | 466 |
+| Entertainment Lighting Folder	| 463 |
+| Entertainment Audio Folder	| 464 |
+| Entertainment Rigging Folder | 465 |
+| Entertainment Video LED Folder | 466 |
 | Door And Window Assembly Objects Folder	| 467 |
 | Door And Window Assembly Lintel Folder	| 468 |
 |	Door And Window Assembly Mullion Folder	| 469 |
@@ -368,5 +368,5 @@
 |	Door And Window Assembly Stool Folder | 473 |
 |	Door And Window Assembly Trim Folder	| 474 |
 |ConnectCADD Device Folder | 475 |
-|Entertainmnet Video Screen Casing 16-10 Folder| 476 |
-|Entertainmnet Video Screen TV Stand Models Folder| 477 |
+|Entertainment Video Screen Casing 16-10 Folder| 476 |
+|Entertainment Video Screen TV Stand Models Folder| 477 |
