@@ -83,7 +83,7 @@
 | Default Video Screen Casings CRT Curved 4-3 Folder | 149 |
 | Default Video Screen Images Folder | 150 |
 | Default Video Screen Projector Folder | 151 |
-| Default Video Screen Stand Models Folder | 152 |
+| Default Video Screen Projector Stands Folder | 152 |
 | Default Event Planning Folder | 154 |
 | Default Event Planning Room Folder | 155 |
 | Default Event Planning Stage Folder | 156 |
@@ -369,4 +369,4 @@
 |	Door And Window Assembly Trim Folder	| 474 |
 |ConnectCADD Device Folder | 475 |
 |Entertainment Video Screen Casing 16-10 Folder| 476 |
-|Entertainment Video Screen TV Stand Models Folder| 477 |
+|Entertainment Video Screen TV Stands Folder| 477 |
