@@ -9,7 +9,7 @@ If folderIndex is positive, the list will include all the resources of that type
 
 A complete listing of supported object types may be found in the [Script Appendix](../Appendix/pages/Appendix%20D%20-%20Vectorworks%20Object%20Types%20and%20Subtypes.md).
 
-A complete listing of supported folders may be found in the [Script Appendix](../Appendix/pages/Appendix%20J%20-%20Vectorworks%20Object%20Types%20and%20Subtypes.md).
+A complete listing of supported folders may be found in the [Script Appendix](../Appendix/pages/Appendix%20J%20-%20Vectorworks%20Folder%20Indexes.md).
 
 ```pascal
 FUNCTION BuildResourceList(
