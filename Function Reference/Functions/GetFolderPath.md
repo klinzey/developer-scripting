@@ -63,5 +63,5 @@ Example()
 Availability: from VectorWorks 8.0
 
 ## Category
-* [File I@O](../Categories/File%20IO.md)
+* [File IO](../Categories/File%20IO.md)
 
