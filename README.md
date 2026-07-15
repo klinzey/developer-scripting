@@ -30,6 +30,9 @@ You can go to the [Python page](Python/README.md) for more information.
 * [Common Tasks](Common/README.md#common-tasks)
 * [Dialogs](Common/README.md#dialogs)
 
+## Tools
+* [File Processing with Script](Tools/pages/FileProcessingWithScript.md)
+
 
 ## Partner Install
 
