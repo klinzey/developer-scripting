@@ -2,7 +2,7 @@
 
 Use to apply one script to multiple files. It will run Vectorworks, make it open each .vwx, .mcd and .sta files in a folder, and execute a script in each file.
 
-# Discaimer
+# Disclaimer
 
 This script is provided for advanced users and could have unintended consequences; use at your own risk.
 
